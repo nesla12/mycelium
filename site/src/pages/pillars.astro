@@ -1,0 +1,148 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="The Three Pillars"
+  description="One synthesis in three pieces: an evidence-based pedagogy, AI that empowers teachers, and AI mastery for children."
+>
+  <section class="wrap intro">
+    <p class="eyebrow rise rise-1">The three pillars</p>
+    <h1 class="rise rise-2">One synthesis, three pieces.</h1>
+    <p class="lede rise rise-3">
+      This is not a new pedagogy invented from scratch. It is a free, open
+      synthesis of what already works, extended with the one dimension the
+      existing efforts predate: the arrival of capable AI, pointed deliberately
+      at empowerment rather than surveillance.
+    </p>
+  </section>
+
+  <section class="wrap pillar" id="pillar-1">
+    <div class="pillar-head">
+      <span class="pillar-num">Pillar 1</span>
+      <h2>An open, evidence-based pedagogy</h2>
+    </div>
+    <div class="pillar-body">
+      <p>
+        A complete, age-banded curriculum and methods guide that any teacher or
+        parent can adopt without permission or payment. It rests on one
+        principle, expressed in three developmental forms: an adult guides the
+        child's mental effort toward a clear goal, at a difficulty that is hard
+        but achievable, starting from the child's actual level.
+      </p>
+      <ul class="bands">
+        <li><strong>Foundations, birth to six.</strong> Guided play, rich language, movement, and self-regulation.</li>
+        <li><strong>Building, six to ten.</strong> The explicit-instruction years: systematic decoding, concrete-to-pictorial-to-abstract mathematics, daily retrieval and spaced practice, and teaching each child at their actual level.</li>
+        <li><strong>Deepening, ten to twelve.</strong> Knowledge applied through projects, structured inquiry, teaching younger peers, and the AI-mastery work of Pillar 3.</li>
+      </ul>
+      <p class="beneath">
+        Beneath all three: sleep, movement, play, and a present adult who talks
+        and listens.
+      </p>
+      <a class="text-link" href="/resources/pillar-1-curriculum">Read the MYCELIUM Learning Framework <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </section>
+
+  <section class="wrap pillar" id="pillar-2">
+    <div class="pillar-head">
+      <span class="pillar-num">Pillar 2</span>
+      <h2>AI that empowers teachers</h2>
+    </div>
+    <div class="pillar-body">
+      <p>
+        An AI in the room can give a teacher understanding they would never get
+        otherwise. The correction is the target: it listens to the teaching, not
+        to the children's feelings. It gives every teacher a private coach,
+        reflecting back the patterns of a lesson as formative feedback, and
+        turns coaching from a scarce luxury into something every teacher can
+        have.
+      </p>
+      <div class="callout">
+        <p>
+          By constitution, this tool must never infer a child's emotion or inner
+          state, never score or profile children, and never replace the
+          teacher's relationship with the child. It is owned by the teacher and
+          private to the teacher. Its data belongs to the person being
+          developed, not to the institution.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap pillar" id="pillar-3">
+    <div class="pillar-head">
+      <span class="pillar-num">Pillar 3</span>
+      <h2>AI mastery for children</h2>
+    </div>
+    <div class="pillar-body">
+      <p>
+        Children will live and work inside AI for life. The goal is to make them
+        its masters and editors, not its passive consumers. Built for the
+        deepening years, it teaches children to use AI as a thinking partner
+        they control, to audit its output for hallucination and bias, to
+        understand how it works and fails, and to reason about its ethics.
+      </p>
+      <p>
+        The governing test never changes: if the AI increases how much the child
+        thinks, it is a tutor; if it replaces the child's thinking, it is a
+        crutch that quietly weakens them.
+      </p>
+      <div class="pillar-links">
+        <a class="text-link" href="/resources/pillar-3-teacher-workbook">Teacher Workbook, ages 10 to 12 <span aria-hidden="true">&rarr;</span></a>
+        <a class="text-link" href="/resources/pillar-3-part-ii-frontier">The Frontier, ages 12 to 14 <span aria-hidden="true">&rarr;</span></a>
+        <a class="text-link" href="/resources/school-implementation-guide">School implementation guide <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-top: 3.5rem; max-width: 48rem; }
+  .intro h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem); margin: 0.6rem 0 0; }
+  .lede { font-size: 1.2rem; line-height: 1.55; color: var(--color-ink-soft); margin-top: 1.2rem; }
+
+  .pillar {
+    margin-top: 3.5rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--color-line);
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    scroll-margin-top: 6rem;
+  }
+  @media (min-width: 880px) {
+    .pillar { grid-template-columns: 16rem minmax(0, 1fr); gap: 3rem; }
+  }
+  .pillar-num {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-clay);
+  }
+  .pillar-head h2 { font-size: clamp(1.7rem, 3.4vw, 2.3rem); margin: 0.5rem 0 0; }
+  .pillar-body { max-width: 46rem; }
+  .pillar-body > * + * { margin-top: 1.1rem; }
+  .pillar-body p { color: var(--color-ink-soft); margin: 0; }
+  .bands { list-style: none; padding: 0; margin: 1.2rem 0 0; display: grid; gap: 0.8rem; }
+  .bands li {
+    padding-left: 1.1rem;
+    position: relative;
+    color: var(--color-ink-soft);
+  }
+  .bands li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0.6em;
+    width: 0.42rem; height: 0.42rem;
+    background: var(--color-clay);
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+  .bands strong { color: var(--color-ink); }
+  .beneath { font-style: italic; }
+  .callout p { margin: 0; color: var(--color-ink-soft); }
+  .text-link { display: inline-block; font-weight: 600; text-decoration: none; }
+  .pillar-links { display: grid; gap: 0.6rem; margin-top: 1.4rem; }
+</style>

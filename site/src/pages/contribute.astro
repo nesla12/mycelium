@@ -1,0 +1,118 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../consts";
+
+const ways = [
+  {
+    who: "Teachers and facilitators",
+    how: "Run a session, then tell us what broke. Suggest clearer wording, better example topics, or runsheets that fit real timetables. Real classroom experience is the most valuable input we get.",
+  },
+  {
+    who: "Parents",
+    how: "Tell us where the home-use guidance is unclear or impractical, and what would actually help at the kitchen table.",
+  },
+  {
+    who: "Researchers",
+    how: "Stress-test the pedagogy. Flag where we have overstated an effect, leaned on weak evidence, or missed a stronger source. We are actively seeking a research partner.",
+  },
+  {
+    who: "Translators",
+    how: "English is the founding language. German and Italian are the first planned translations, and any language is welcome. Keep the structure, the citations, and the boundary intact.",
+  },
+];
+---
+
+<Base
+  title="Contribute"
+  description="How teachers, parents, researchers, and translators can improve the framework, and the one rule above all others."
+>
+  <section class="wrap intro">
+    <p class="eyebrow rise rise-1">Contribute</p>
+    <h1 class="rise rise-2">It gets better when you improve it and give it back.</h1>
+    <p class="lede rise rise-3">
+      This is a free, open framework. Teachers, parents, researchers, and
+      translators all make it stronger. Everything is forkable, and improvements
+      are welcome.
+    </p>
+    <div class="actions rise rise-4">
+      <a class="btn btn-primary" href={SITE.repo} rel="noopener">View the repository</a>
+      <a class="btn btn-ghost" href={`${SITE.repo}/blob/main/CONTRIBUTING.md`} rel="noopener">Read CONTRIBUTING</a>
+    </div>
+  </section>
+
+  <section class="wrap rule">
+    <div class="callout">
+      <p class="eyebrow">The one rule above all others</p>
+      <h2>The constitution cannot be overridden by contribution.</h2>
+      <p>
+        No pull request, translation, grant, or partnership changes the
+        principles or the boundary. In particular, we will never accept anything
+        that senses, scores, or infers children's emotions or inner states. A
+        contribution that crosses that line is declined, regardless of how
+        useful it seems.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap evidence">
+    <h2>The evidence standard</h2>
+    <p>
+      This framework earns trust by being honest about evidence. Claims cite
+      their evidence. Where the evidence is contested, we say so plainly.
+      Critique that strengthens the base is one of the most valuable
+      contributions you can make, and we publish what fails as openly as what
+      works. No invented statistics, studies, quotes, or claims: if it is not
+      supported, it does not go in.
+    </p>
+  </section>
+
+  <section class="wrap ways">
+    <h2>How different people can help</h2>
+    <div class="ways-grid">
+      {
+        ways.map((w) => (
+          <div class="way">
+            <h3>{w.who}</h3>
+            <p>{w.how}</p>
+          </div>
+        ))
+      }
+    </div>
+    <p class="source-note">
+      The canonical documents live in <code>/content</code> and are the single
+      source of truth. Edit those; the website and the downloadable copies are
+      generated from them. Full details are in
+      <a href={`${SITE.repo}/blob/main/CONTRIBUTING.md`} rel="noopener">CONTRIBUTING.md</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-top: 3.5rem; max-width: 48rem; }
+  .intro h1 { font-size: clamp(2.2rem, 5vw, 3.3rem); margin: 0.6rem 0 0; }
+  .lede { font-size: 1.2rem; line-height: 1.55; color: var(--color-ink-soft); margin-top: 1.2rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; margin-top: 2rem; }
+
+  .rule { margin-top: 3.5rem; max-width: 52rem; }
+  .rule h2 { font-size: clamp(1.5rem, 3vw, 2rem); margin: 0.6rem 0 0.8rem; max-width: 24ch; }
+  .rule .callout p:last-child { margin-bottom: 0; color: var(--color-ink-soft); }
+  .rule .callout p:first-child { margin-top: 0; }
+
+  .evidence { margin-top: 3.5rem; max-width: 48rem; }
+  .evidence h2 { font-size: 1.6rem; margin: 0 0 0.8rem; }
+  .evidence p { color: var(--color-ink-soft); margin: 0; }
+
+  .ways { margin-top: 3.5rem; }
+  .ways > h2 { font-size: 1.6rem; margin: 0 0 1.5rem; }
+  .ways-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; }
+  @media (min-width: 680px) { .ways-grid { grid-template-columns: 1fr 1fr; } }
+  .way {
+    border: 1px solid var(--color-line);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    background: var(--color-card);
+  }
+  .way h3 { font-size: 1.2rem; margin: 0 0 0.5rem; }
+  .way p { margin: 0; color: var(--color-ink-soft); font-size: 0.98rem; }
+  .source-note { margin-top: 2rem; color: var(--color-ink-soft); max-width: 48rem; }
+</style>

@@ -1,0 +1,125 @@
+---
+import Base from "../layouts/Base.astro";
+import Boundary from "../components/Boundary.astro";
+import { SITE } from "../consts";
+
+const principles = [
+  {
+    title: "Human first, evidence first",
+    body: "We build on what the science of learning shows, not on what is intuitive or fashionable. Where evidence is contested, we say so. Where a beloved idea is wrong, we drop it.",
+  },
+  {
+    title:
+      "AI points at the adults and at empowerment, never at surveilling children's feelings",
+    body: "We use AI to make teachers more responsive, to teach children to master AI, and to catch developmental needs early. We never use AI to infer the emotional or inner state of a child.",
+  },
+  {
+    title: "Knowledge before skill, at every age",
+    body: "Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.",
+  },
+  {
+    title: "The child does the thinking",
+    body: "Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive. Learning is the residue of the child's own mental effort.",
+  },
+  {
+    title: "Teach each child at their actual level",
+    body: "Not at the level of the curriculum, not at the top of the class. Meet children where they are and move them forward from there.",
+  },
+  {
+    title: "Open by default, global by design",
+    body: "Everything is free, forkable, and translatable, owned by no company, adoptable by anyone on earth.",
+  },
+];
+---
+
+<Base
+  title="Principles"
+  description="The constitutional beliefs of the Human-Core Initiative, and the boundary that holds everywhere."
+>
+  <section class="wrap intro">
+    <p class="eyebrow rise rise-1">Principles</p>
+    <h1 class="rise rise-2">What we believe.</h1>
+    <p class="lede rise rise-3">
+      These principles are constitutional. They are the test every contribution
+      must pass, and they cannot be overridden by contribution, funding, or
+      convenience.
+    </p>
+  </section>
+
+  <section class="wrap principles">
+    <ol class="principle-list">
+      {
+        principles.map((p, i) => (
+          <li class="principle">
+            <span class="section-no">{String(i + 1).padStart(2, "0")}</span>
+            <div>
+              <h2>{p.title}</h2>
+              <p>{p.body}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="wrap boundary-wrap">
+    <p class="eyebrow center">The signature of this project</p>
+    <Boundary />
+  </section>
+
+  <section class="wrap guardrails">
+    <div class="callout">
+      <h2>What the teacher tool must never do</h2>
+      <p>
+        Pillar 2 puts an AI coach in the hands of teachers. By constitution,
+        that tool must never infer a child's emotion or inner state; never
+        score, rank, or profile children; and never replace the teacher's
+        relationship with the child. It is owned by the teacher and private to
+        the teacher. The moment it becomes a dashboard for administrators to
+        monitor staff, it stops being coaching and becomes surveillance. Its
+        data belongs to the person being developed, not to the institution.
+      </p>
+    </div>
+    <p class="more">
+      Read the full <a href={`${SITE.repo}/blob/main/CONSTITUTION.md`}>Constitution</a>,
+      including the guardrails for children's AI work and the governance and
+      evidence standards.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-top: 3.5rem; max-width: 46rem; }
+  .intro h1 { font-size: clamp(2.4rem, 5.5vw, 3.6rem); margin: 0.6rem 0 0; }
+  .lede {
+    font-size: 1.2rem;
+    line-height: 1.55;
+    color: var(--color-ink-soft);
+    margin-top: 1.2rem;
+  }
+  .principles { margin-top: 3rem; }
+  .principle-list { list-style: none; margin: 0; padding: 0; }
+  .principle {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--color-line);
+    align-items: start;
+  }
+  .principle:last-child { border-bottom: 1px solid var(--color-line); }
+  .principle h2 {
+    font-size: clamp(1.35rem, 2.6vw, 1.7rem);
+    margin: 0 0 0.6rem;
+    max-width: 32ch;
+  }
+  .principle p { margin: 0; color: var(--color-ink-soft); max-width: 52rem; }
+
+  .boundary-wrap { margin-top: 4rem; }
+  .center { text-align: center; margin-bottom: 1rem; }
+
+  .guardrails { margin-top: 3.5rem; max-width: 52rem; }
+  .guardrails h2 { font-size: 1.3rem; margin: 0 0 0.7rem; }
+  .guardrails .callout p { margin: 0; color: var(--color-ink-soft); }
+  .more { margin-top: 1.6rem; color: var(--color-ink-soft); }
+</style>

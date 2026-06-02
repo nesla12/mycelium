@@ -1,0 +1,86 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../consts";
+---
+
+<Base
+  title="About"
+  description="An honest note: this is early, evidence-based, and seeking a research partner and pilots."
+>
+  <section class="wrap intro">
+    <p class="eyebrow rise rise-1">About</p>
+    <h1 class="rise rise-2">An honest note on where this is.</h1>
+  </section>
+
+  <section class="wrap body measure">
+    <p>
+      The Human-Core Initiative is early. It is a founding proposal and a first
+      set of written, pilotable materials, not a finished system and not a
+      guarantee. We would rather say that plainly than oversell it.
+    </p>
+
+    <p>
+      What it is: a free, open synthesis of what the science of learning already
+      shows, extended with the one dimension the existing efforts predate, the
+      arrival of capable AI, pointed deliberately at empowering teachers and
+      teaching children rather than at surveilling them. It is owned by no
+      company and adoptable by anyone.
+    </p>
+
+    <p>
+      We hold our claims to the evidence. Effect sizes in education are usually
+      modest, context matters, and the largest single lever is not a tool but a
+      knowledgeable, well-supported teacher and an engaged adult at home. The AI
+      evidence is new and moving fast, so we treat the specific tools as
+      provisional and the underlying principle, that the child must do the
+      thinking, as durable. We will publish what fails as openly as what works.
+    </p>
+
+    <div class="callout">
+      <h2>What we are looking for</h2>
+      <ul>
+        <li>
+          <strong>A research partner.</strong> An institution to validate and
+          stress-test the pedagogy, so it is more than one practitioner's
+          conviction.
+        </li>
+        <li>
+          <strong>Pilots.</strong> Small, well-observed first runs with
+          volunteer teachers, because the evidence is clear that programs lose
+          much of their effect when scaled carelessly. We earn scale by proving
+          the model works small.
+        </li>
+      </ul>
+    </div>
+
+    <p>
+      If you are a teacher, a school, a researcher, or a funder who wants to help
+      prove or disprove this in the open, the work lives in the
+      <a href={SITE.repo} rel="noopener">public repository</a>, and contributions
+      and critique are welcome. Start with the
+      <a href="/resources">free resources</a> and the
+      <a href="/principles">principles</a>.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .intro { padding-top: 3.5rem; }
+  .intro h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); margin: 0.6rem 0 0; }
+  .body { margin-top: 2rem; font-size: 1.1rem; line-height: 1.7; color: var(--color-ink); }
+  .body > * + * { margin-top: 1.2rem; }
+  .body p { color: var(--color-ink-soft); margin: 0; }
+  .callout h2 { font-size: 1.3rem; margin: 0 0 0.8rem; }
+  .callout ul { margin: 0; padding-left: 1.1rem; list-style: none; display: grid; gap: 0.7rem; }
+  .callout li { position: relative; padding-left: 1.1rem; color: var(--color-ink-soft); }
+  .callout li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0.62em;
+    width: 0.42rem; height: 0.42rem;
+    background: var(--color-pine);
+    border-radius: 2px;
+    transform: rotate(45deg);
+  }
+  .callout strong { color: var(--color-ink); }
+</style>

@@ -1,0 +1,36 @@
+Human-Core Initiative
+Licensing notice
+
+This repository is dual-licensed. Two different licenses apply to two
+different kinds of material, so it is always clear which one governs a
+given file.
+
+1. CONTENT AND SITE COPY  ->  Creative Commons Attribution-ShareAlike 4.0
+   International (CC BY-SA 4.0)
+
+   This covers all the words: the canonical documents in /content, the
+   downloadable copies in /resources, the governance documents
+   (README.md, CONSTITUTION.md, CONTRIBUTING.md), and the human-readable
+   copy and text rendered on the website (the prose in the pages, not the
+   code that renders it).
+
+   You are free to share and adapt this material, including commercially,
+   as long as you give appropriate credit to the Human-Core Initiative,
+   indicate if changes were made, and license your derivatives under the
+   same CC BY-SA 4.0 terms. Derivatives stay open.
+
+2. CODE  ->  MIT License
+
+   This covers the software: the Astro site source, components, layouts,
+   scripts, configuration, and any other code in /site or elsewhere in the
+   repository. You may reuse the code freely under the MIT terms.
+
+Where a single file mixes both (for example a component that contains both
+code and embedded copy), the code is under MIT and the human-readable copy
+is under CC BY-SA 4.0.
+
+The full text of both licenses is in the LICENSE file.
+
+This split reflects the project's constitution: the framework is free
+forever and its derivatives are kept open (ShareAlike), while the code that
+delivers it is as reusable as possible (MIT).

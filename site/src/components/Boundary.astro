@@ -1,0 +1,49 @@
+---
+// The project's signature. The boundary is a feature to celebrate, never to
+// soften. Wording lifted from the founding proposal and constitution.
+interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+
+<aside class="boundary" aria-labelledby="boundary-heading">
+  <p class="eyebrow">The boundary</p>
+  <h2 id="boundary-heading" class="boundary-statement">
+    We do not build systems that infer the emotional or inner states of
+    children.
+  </h2>
+  {
+    !compact && (
+      <div class="boundary-body">
+        <p>
+          This line holds everywhere, not only under European law. The reason
+          is not merely regulatory. Such inference is scientifically
+          unreliable, context-dependent, and aimed at people who cannot refuse
+          it.
+        </p>
+        <p>
+          AI points at the adults and at empowerment. We use it to make
+          teachers more responsive and to teach children to master AI. We never
+          point it at surveilling children's feelings. We lose nothing real and
+          gain a foundation that survives scrutiny anywhere.
+        </p>
+      </div>
+    )
+  }
+</aside>
+
+<style>
+  .boundary-statement {
+    font-size: clamp(1.5rem, 3.4vw, 2.2rem);
+    margin: 0.7rem 0 0;
+    max-width: 30ch;
+  }
+  .boundary-body {
+    margin-top: 1.4rem;
+    display: grid;
+    gap: 0.9rem;
+    max-width: 46rem;
+  }
+  .boundary-body p { margin: 0; font-size: 1.02rem; }
+</style>

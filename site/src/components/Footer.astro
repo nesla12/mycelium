@@ -1,0 +1,71 @@
+---
+import { NAV, SITE } from "../consts";
+import { useTranslations } from "../i18n/ui";
+
+const t = useTranslations("en");
+const year = 2026;
+---
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <p class="footer-name">{SITE.name}</p>
+      <p class="footer-tag">{t("footer.tagline")}</p>
+    </div>
+
+    <nav aria-label="Footer" class="footer-nav">
+      {NAV.map((item) => <a href={item.href}>{t(item.key)}</a>)}
+    </nav>
+
+    <div class="footer-meta">
+      <a href={SITE.repo} rel="noopener">{t("footer.repo")}</a>
+      <p class="footer-license">{t("footer.license")}</p>
+      <p class="footer-copy">&copy; {year} {SITE.name} and contributors.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 5rem;
+    border-top: 1px solid var(--color-line);
+    background: var(--color-paper-2);
+    padding-block: 3rem 3.5rem;
+  }
+  .footer-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 800px) {
+    .footer-grid { grid-template-columns: 1.5fr 1fr 1.2fr; gap: 3rem; }
+  }
+  .footer-name {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 0.4rem;
+  }
+  .footer-tag {
+    color: var(--color-ink-soft);
+    max-width: 26rem;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .footer-nav a {
+    color: var(--color-ink-soft);
+    text-decoration: none;
+    font-size: 0.95rem;
+    width: fit-content;
+  }
+  .footer-nav a:hover { color: var(--color-pine-deep); }
+  .footer-meta { font-size: 0.88rem; color: var(--color-ink-faint); }
+  .footer-meta a { font-weight: 500; }
+  .footer-license { margin: 0.7rem 0 0.3rem; }
+  .footer-copy { margin: 0; }
+</style>

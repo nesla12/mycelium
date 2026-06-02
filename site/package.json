@@ -1,0 +1,24 @@
+{
+  "name": "human-core-site",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/sync-resources.mjs",
+    "predev": "npm run sync",
+    "dev": "astro dev",
+    "prebuild": "npm run sync",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.2.9",
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "astro": "^6.4.2",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0"
+  }
+}

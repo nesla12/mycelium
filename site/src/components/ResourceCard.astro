@@ -1,0 +1,75 @@
+---
+import { useTranslations } from "../i18n/ui";
+
+interface Props {
+  href: string;
+  title: string;
+  subtitle?: string;
+  summary: string;
+  audience?: string;
+  pillar?: number;
+  featured?: boolean;
+}
+const { href, title, subtitle, summary, audience, pillar, featured = false } =
+  Astro.props;
+const t = useTranslations("en");
+---
+
+<article class:list={["card", { "card-featured": featured }]}>
+  <div class="card-tags">
+    {pillar && <span class="tag">Pillar {pillar}</span>}
+    {featured && <span class="tag">Most complete</span>}
+  </div>
+  <h3 class="card-title">
+    <a href={href}>{title}</a>
+  </h3>
+  {subtitle && <p class="card-subtitle">{subtitle}</p>}
+  <p class="card-summary">{summary}</p>
+  <div class="card-foot">
+    {audience && (
+      <span class="card-audience">{t("common.audience")} {audience}</span>
+    )}
+    <a class="card-link" href={href} aria-label={`Read ${title}`}>
+      {t("common.readDocument")} <span aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</article>
+
+<style>
+  .card-tags { display: flex; gap: 0.5rem; margin-bottom: 0.9rem; min-height: 1.4rem; }
+  .card-title {
+    font-size: 1.35rem;
+    margin: 0 0 0.3rem;
+    line-height: 1.18;
+  }
+  .card-title a { text-decoration: none; color: var(--color-ink); }
+  .card-title a:hover { color: var(--color-pine-deep); }
+  .card-subtitle {
+    margin: 0 0 0.7rem;
+    color: var(--color-ink-soft);
+    font-size: 0.92rem;
+  }
+  .card-summary {
+    margin: 0;
+    color: var(--color-ink-soft);
+    font-size: 0.98rem;
+    flex: 1;
+  }
+  .card-foot {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-line);
+  }
+  .card-audience {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-ink-faint);
+  }
+  .card-link { font-weight: 600; font-size: 0.92rem; text-decoration: none; }
+</style>

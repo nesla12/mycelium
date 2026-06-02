@@ -1,0 +1,38 @@
+# Deploy the Human-Core site on a VPS behind an existing Traefik instance.
+#
+# Assumptions (adjust to your setup):
+#   - Traefik is already running and attached to an external Docker network
+#     named "traefik".
+#   - Traefik has a websecure (443) entrypoint and an ACME certresolver named
+#     "letsencrypt". Rename these labels if yours differ.
+#
+# Usage:
+#   docker compose up -d --build
+#
+services:
+  human-core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: human-core-site:latest
+    container_name: human-core-site
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      # Change the host to your domain.
+      - "traefik.http.routers.human-core.rule=Host(`humancore.example.org`)"
+      - "traefik.http.routers.human-core.entrypoints=websecure"
+      - "traefik.http.routers.human-core.tls=true"
+      - "traefik.http.routers.human-core.tls.certresolver=letsencrypt"
+      - "traefik.http.services.human-core.loadbalancer.server.port=80"
+      # Optional: redirect HTTP to HTTPS (requires a "web" entrypoint on :80).
+      - "traefik.http.routers.human-core-http.rule=Host(`humancore.example.org`)"
+      - "traefik.http.routers.human-core-http.entrypoints=web"
+      - "traefik.http.routers.human-core-http.middlewares=human-core-redirect"
+      - "traefik.http.middlewares.human-core-redirect.redirectscheme.scheme=https"
+
+networks:
+  traefik:
+    external: true

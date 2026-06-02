@@ -1,0 +1,9 @@
+# Normalize line endings to LF in the repository for cross-platform consistency
+# (matters for the shell-less files used in the Docker/nginx build).
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary

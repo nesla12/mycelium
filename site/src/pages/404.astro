@@ -1,0 +1,25 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Page not found">
+  <section class="wrap nf">
+    <p class="eyebrow">404</p>
+    <h1>We could not find that page.</h1>
+    <p class="lede">
+      The link may be old, or the page may have moved. The free resources are a
+      good place to start.
+    </p>
+    <div class="actions">
+      <a class="btn btn-primary" href="/resources">Browse resources</a>
+      <a class="btn btn-ghost" href="/">Return home</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .nf { padding-top: 5rem; padding-bottom: 4rem; max-width: 40rem; }
+  .nf h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0.6rem 0 0; }
+  .lede { font-size: 1.15rem; color: var(--color-ink-soft); margin-top: 1rem; }
+  .actions { display: flex; gap: 0.9rem; flex-wrap: wrap; margin-top: 2rem; }
+</style>

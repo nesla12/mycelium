@@ -1,0 +1,129 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Boundary from "../../components/Boundary.astro";
+import { useTranslations } from "../../i18n/ui";
+
+export async function getStaticPaths() {
+  const docs = await getCollection("resources");
+  return docs.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const t = useTranslations("en");
+
+const downloadHref = `/downloads/${entry.id}.md`;
+// Section-level headings for the table of contents. The leading title block is
+// stripped from the body (see remark/strip-leading-title.mjs), so the top
+// headings here are real sections, whether a document uses # or ## for them.
+const toc = headings.filter((h) => h.depth <= 2);
+---
+
+<Base title={entry.data.title} description={entry.data.summary}>
+  <article class="doc wrap">
+    <header class="doc-head">
+      <a class="back" href="/resources"
+        ><span aria-hidden="true">&larr;</span> {t("common.backToResources")}</a
+      >
+      <div class="doc-tags">
+        {entry.data.pillar && <span class="tag">Pillar {entry.data.pillar}</span>}
+        {entry.data.audience && (
+          <span class="doc-audience">{t("common.audience")} {entry.data.audience}</span>
+        )}
+      </div>
+      <h1>{entry.data.title}</h1>
+      {entry.data.subtitle && <p class="doc-subtitle">{entry.data.subtitle}</p>}
+      <div class="doc-actions">
+        <a class="btn btn-primary" href={downloadHref} download>
+          {t("common.download")}
+        </a>
+      </div>
+    </header>
+
+    <div class="doc-body">
+      <aside class="doc-toc" aria-label={t("common.onThisPage")}>
+        <div class="toc-sticky">
+          <p class="eyebrow">{t("common.onThisPage")}</p>
+          <ul>
+            {toc.map((h) => (
+              <li><a href={`#${h.slug}`}>{h.text}</a></li>
+            ))}
+          </ul>
+        </div>
+      </aside>
+
+      <div class="prose doc-prose">
+        <Content />
+      </div>
+    </div>
+
+    <footer class="doc-foot">
+      <Boundary compact />
+      <div class="doc-foot-actions">
+        <a class="btn btn-ghost" href="/resources">{t("common.backToResources")}</a>
+        <a class="btn btn-primary" href={downloadHref} download>{t("common.download")}</a>
+      </div>
+    </footer>
+  </article>
+</Base>
+
+<style>
+  .doc { padding-top: 3rem; }
+  .back {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-ink-faint);
+  }
+  .back:hover { color: var(--color-pine-deep); }
+  .doc-head { max-width: 46rem; margin-bottom: 2.5rem; }
+  .doc-tags {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin: 1.4rem 0 0.8rem;
+  }
+  .doc-audience {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-ink-faint);
+  }
+  .doc-head h1 { font-size: clamp(2.1rem, 5vw, 3.1rem); margin: 0; }
+  .doc-subtitle {
+    font-size: 1.2rem;
+    color: var(--color-ink-soft);
+    margin: 0.8rem 0 0;
+    line-height: 1.4;
+  }
+  .doc-actions { margin-top: 1.6rem; }
+
+  .doc-body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+  @media (min-width: 1024px) {
+    .doc-body { grid-template-columns: 15rem minmax(0, 1fr); gap: 3.5rem; }
+    .doc-toc { order: 2; }
+    .doc-prose { order: 1; }
+  }
+  .toc-sticky { position: sticky; top: 5.5rem; }
+  .doc-toc ul { list-style: none; margin: 0.7rem 0 0; padding: 0; display: grid; gap: 0.45rem; }
+  .doc-toc a {
+    font-size: 0.88rem;
+    color: var(--color-ink-soft);
+    text-decoration: none;
+    line-height: 1.35;
+    display: block;
+  }
+  .doc-toc a:hover { color: var(--color-pine-deep); }
+
+  .doc-foot { margin-top: 3.5rem; }
+  .doc-foot-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 2rem; }
+</style>

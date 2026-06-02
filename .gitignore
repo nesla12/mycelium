@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# build output
+site/dist/
+site/.astro/
+
+# generated downloads served by the site (synced from /content)
+site/public/downloads/
+
+# env & logs
+.env
+.env.*
+*.log
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
