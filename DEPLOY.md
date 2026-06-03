@@ -8,25 +8,29 @@ The site lives in the `site/` subdirectory and reads the canonical documents fro
 
 ## Option A. Vercel (recommended, fastest)
 
-Vercel auto-detects Astro and serves the static output. Because the app is in a subdirectory, point Vercel at `site/`.
+Deploy from the **repository root**, not from `site/`. The site reads the
+canonical documents from `/content` at build time, so the whole repo must be in
+the build. The root `vercel.json` handles this: it installs and builds inside
+`site/` and serves `site/dist`.
 
 **With the dashboard (import the Git repo):**
 
 1. New Project, import this repository.
-2. Set **Root Directory** to `site`.
-3. Framework preset: **Astro** (auto-detected). Build command `npm run build`, output directory `dist` (both already in `site/vercel.json`).
-4. Deploy. Production builds run on every push to the default branch; pull requests get preview URLs.
+2. Leave **Root Directory** as the repository root (do not set it to `site`).
+3. The build settings come from `vercel.json` (install `npm --prefix site install`, build `npm --prefix site run build`, output `site/dist`). Deploy.
+4. Production builds run on every push to the default branch; pull requests get preview URLs.
 
-**With the CLI:**
+**With the CLI (from the repo root):**
 
 ```bash
 npm i -g vercel
-cd site
-vercel          # first run links/creates the project; accept the Astro defaults
-vercel --prod   # promote to production
+vercel login          # one-time, interactive
+vercel --prod --yes   # build and promote to production
 ```
 
-No environment variables are required. To use a custom domain, add it under Project, Settings, Domains, and update `site` in `site/astro.config.mjs` to the production URL so canonical links are correct.
+No environment variables are required. To use a custom domain, add it under
+Project, Settings, Domains, and update `site` in `site/astro.config.mjs` to the
+production URL so canonical links are correct.
 
 ---
 

@@ -7,7 +7,7 @@ export const SITE = {
   tagline:
     "A free, open, evidence-based framework for human development in the age of AI.",
   // Replace with the real repository URL.
-  repo: "https://github.com/human-core-initiative/human-core-initiative",
+  repo: "https://github.com/nesla12/mycelium",
   url: "https://human-core-initiative.org",
 } as const;
 
