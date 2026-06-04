@@ -1,10 +1,10 @@
 # The Human-Core Initiative
 
-**A free, open, evidence-based framework for human development in the age of AI.**
+**One free, evidence-based curriculum for raising a capable, whole human, from the first months of life to the age of AI.**
 
-We build on what the science of learning already shows, and we point AI at empowering teachers and teaching children to master it, never at surveilling them. Everything here is free, forkable, and translatable, owned by no company, adoptable by anyone on earth.
+Human-Core gathers the methods the best global evidence shows actually work. It begins in infancy with the movement, language, and play that build the brain, teaches the foundations of reading and mathematics with the methods the evidence most strongly supports, adds the human skills school tends to skip, and from about age ten teaches children to think with and master AI. The aim is children who grow up able and whole, ready to thrive alongside AI rather than be displaced by it. Everything is free, forkable, and translatable, owned by no company.
 
-This is early work: a founding proposal and a first set of written, pilotable materials, not a finished system and not a guarantee. We would rather say that plainly than oversell it.
+This is early work: a founding proposal and a growing set of pilotable materials, not a finished system and not a guarantee. We would rather say that plainly than oversell it.
 
 ---
 
@@ -19,14 +19,16 @@ This initiative exists to act on both at once, in the open, rather than to compl
 
 ## The principles
 
-These are constitutional. They are the test every contribution must pass, and they cannot be overridden by contribution, funding, or convenience. See [CONSTITUTION.md](CONSTITUTION.md) for the full text.
+These are constitutional. Each is a short rule you can hold in your head and use to judge a decision. They cannot be overridden by contribution, funding, or convenience. See [CONSTITUTION.md](CONSTITUTION.md) for the full text.
 
-- **Human first, evidence first.**
-- **AI points at the adults and at empowerment, never at surveilling children's feelings.**
-- **Knowledge before skill, at every age.**
-- **The child does the thinking.**
-- **Teach each child at their actual level.**
-- **Open by default, global by design.**
+- **Build the human before the skill.** Sleep, movement, play, language, and a present adult come first.
+- **The child does the thinking.** Anything that thinks for the child is removed.
+- **Knowledge before skill.** Judgment grows from a base of real knowledge.
+- **Meet the child where they are.** Teach at the actual level, not the curriculum's.
+- **Hard but achievable.** Guide effort at the edge of what the child can do.
+- **Take what works, from anywhere.** Best global evidence in, fashion out.
+
+Two commitments hold alongside them: the framework is **free and open** forever, and we hold one hard **boundary**, never building systems that infer the emotional or inner states of children.
 
 ## The boundary
 
@@ -54,14 +56,14 @@ All resources are free, with no signup and no email gate. Read them on the site 
 
 | Document | For | What it is |
 |----------|-----|-----------|
-| **[Pillar 3 Teacher Workbook](content/03-pillar-3-teacher-workbook.md)** | Teachers | The most complete draw. Eight ready-to-run sessions teaching children (ages 10 to 12) to use, question, and out-think AI. Runs even without AI in the room, using printable materials. |
-| [MYCELIUM Learning Framework](content/02-pillar-1-curriculum.md) | Teachers and parents | Pillar 1. The evidence-based curriculum and methods, ages 0 to 12. |
+| **[MYCELIUM Learning Framework](content/02-pillar-1-curriculum.md)** | Teachers and parents | Pillar 1, the spine. The evidence-based curriculum and methods from birth to twelve. **Start here.** |
+| [Pillar 3 Teacher Workbook](content/03-pillar-3-teacher-workbook.md) | Teachers | The AI-mastery capstone, ages 10 to 12. Eight ready-to-run sessions teaching children to use, question, and out-think AI. Runs even without AI in the room, and the most ready-to-run module. |
 | [Pillar 3, Part II: The Frontier](content/04-pillar-3-part-ii-frontier.md) | Teachers | The advanced track, ages 12 to 14: reasoning models, compute and power, authorship, research, and the skills school forgot. |
 | [The Facilitator's Guide](content/05-facilitators-guide.md) | Teachers | How to run hard debates with children as a community of inquiry, without it becoming chaos or your opinion. |
 | [The Human-Core AI Curriculum](content/06-school-implementation-guide.md) | Teachers and directors | The implementation layer: sixteen modules and 6 to 24 hour pathways that slot into subjects you already teach. |
 | [Founding Proposal](content/01-founding-proposal.md) | Everyone | The mission, the evidence, the theory of change, the strategy, and the risks. |
 
-If you adopt a school, **start with the Teacher Workbook.**
+The curriculum is the spine. **Start there.** If you want to begin teaching tomorrow, the Pillar 3 Teacher Workbook is the most ready-to-run module.
 
 ---
 

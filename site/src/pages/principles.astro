@@ -5,29 +5,28 @@ import { SITE } from "../consts";
 
 const principles = [
   {
-    title: "Human first, evidence first",
-    body: "We build on what the science of learning shows, not on what is intuitive or fashionable. Where evidence is contested, we say so. Where a beloved idea is wrong, we drop it.",
-  },
-  {
-    title:
-      "AI points at the adults and at empowerment, never at surveilling children's feelings",
-    body: "We use AI to make teachers more responsive, to teach children to master AI, and to catch developmental needs early. We never use AI to infer the emotional or inner state of a child.",
-  },
-  {
-    title: "Knowledge before skill, at every age",
-    body: "Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.",
+    title: "Build the human before the skill",
+    body: "Development rests on sleep, movement, play, language, and a present adult who talks and listens. These are the foundation, not the extras, and they come first.",
   },
   {
     title: "The child does the thinking",
-    body: "Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive. Learning is the residue of the child's own mental effort.",
+    body: "Learning is the residue of the child's own mental effort. Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive.",
   },
   {
-    title: "Teach each child at their actual level",
-    body: "Not at the level of the curriculum, not at the top of the class. Meet children where they are and move them forward from there.",
+    title: "Knowledge before skill",
+    body: "Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.",
   },
   {
-    title: "Open by default, global by design",
-    body: "Everything is free, forkable, and translatable, owned by no company, adoptable by anyone on earth.",
+    title: "Meet the child where they are",
+    body: "Teach at the child's actual level, not the level of the curriculum and not the top of the class. Move them forward from there.",
+  },
+  {
+    title: "Hard but achievable",
+    body: "Guide the child's effort at the edge of what they can do. Effortful success is where learning and curiosity live; boredom and defeat are where they die.",
+  },
+  {
+    title: "Take what works, from anywhere",
+    body: "We build on the strongest global evidence about how humans actually learn, and we drop what is merely fashionable or familiar, however beloved.",
   },
 ];
 ---
@@ -40,9 +39,10 @@ const principles = [
     <p class="eyebrow rise rise-1">Principles</p>
     <h1 class="rise rise-2">What we believe.</h1>
     <p class="lede rise rise-3">
-      These principles are constitutional. They are the test every contribution
-      must pass, and they cannot be overridden by contribution, funding, or
-      convenience.
+      These six principles are constitutional. Each is a short rule you can hold
+      in your head and use to judge a decision. They are the test every
+      contribution must pass, and they cannot be overridden by contribution,
+      funding, or convenience.
     </p>
   </section>
 
@@ -62,8 +62,33 @@ const principles = [
     </ol>
   </section>
 
+  <section class="wrap commitments">
+    <p class="eyebrow">Two commitments</p>
+    <p class="commitments-lede">
+      Alongside the principles, two promises hold. They are commitments, not
+      learning principles, but they are just as binding.
+    </p>
+    <div class="commitment-grid">
+      <div class="commitment">
+        <h2>Free and open, forever</h2>
+        <p>
+          The curriculum and documentation are free, forkable, and translatable,
+          owned by no company and adoptable by anyone on earth. Derivatives stay
+          open.
+        </p>
+      </div>
+      <div class="commitment">
+        <h2>The boundary</h2>
+        <p>
+          Our tools serve the human. We never build systems that infer the
+          emotional or inner states of children. It holds everywhere, and it is
+          the project's signature.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <section class="wrap boundary-wrap">
-    <p class="eyebrow center">The signature of this project</p>
     <Boundary />
   </section>
 
@@ -115,8 +140,26 @@ const principles = [
   }
   .principle p { margin: 0; color: var(--color-ink-soft); max-width: 52rem; }
 
+  .commitments { margin-top: 4rem; max-width: 60rem; }
+  .commitments-lede { color: var(--color-ink-soft); margin: 0.5rem 0 0; max-width: 44rem; }
+  .commitment-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1.8rem;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 700px) { .commitment-grid { grid-template-columns: 1fr 1fr; } }
+  .commitment {
+    border: 1px solid var(--color-line);
+    border-left: 3px solid var(--color-pine);
+    border-radius: 0.6rem;
+    padding: 1.4rem 1.5rem;
+    background: var(--color-card);
+  }
+  .commitment h2 { font-size: 1.2rem; margin: 0 0 0.5rem; }
+  .commitment p { margin: 0; color: var(--color-ink-soft); font-size: 0.98rem; }
+
   .boundary-wrap { margin-top: 4rem; }
-  .center { text-align: center; margin-bottom: 1rem; }
 
   .guardrails { margin-top: 3.5rem; max-width: 52rem; }
   .guardrails h2 { font-size: 1.3rem; margin: 0 0 0.7rem; }

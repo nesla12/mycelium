@@ -8,17 +8,27 @@ This document is lifted from the founding proposal. The founding proposal remain
 
 ## The principles
 
-**Human first, evidence first.** We build on what the science of learning shows, not on what is intuitive or fashionable. Where evidence is contested, we say so. Where a beloved idea is wrong, we drop it.
+Each is a short rule you can hold in your head and use to judge a decision.
 
-**AI points at the adults and at empowerment, never at surveilling children's feelings.** We use AI to make teachers more responsive, to teach children to master AI, and to catch developmental needs early. We never use AI to infer the emotional or inner state of a child.
+**Build the human before the skill.** Development rests on sleep, movement, play, language, and a present adult who talks and listens. These are the foundation, not the extras, and they come first.
 
-**Knowledge before skill, at every age.** Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.
+**The child does the thinking.** Learning is the residue of the child's own mental effort. Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive.
 
-**The child does the thinking.** Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive. Learning is the residue of the child's own mental effort.
+**Knowledge before skill.** Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.
 
-**Teach each child at their actual level.** Not at the level of the curriculum, not at the top of the class. Meet children where they are and move them forward from there.
+**Meet the child where they are.** Teach at the child's actual level, not the level of the curriculum and not the top of the class. Move them forward from there.
 
-**Open by default, global by design.** Everything is free, forkable, and translatable, owned by no company, adoptable by anyone on earth.
+**Hard but achievable.** Guide the child's effort at the edge of what they can do. Effortful success is where learning and curiosity live; boredom and defeat are where they die.
+
+**Take what works, from anywhere.** We build on the strongest global evidence about how humans actually learn, and we drop what is merely fashionable or familiar, however beloved.
+
+## The two commitments
+
+Alongside the principles, two commitments hold.
+
+**Free and open, forever.** Curriculum and documentation are free, forkable, and translatable, owned by no company and adoptable by anyone on earth. Derivatives stay open.
+
+**The boundary.** Our tools serve the human. We never build systems that infer the emotional or inner states of children. This is stated in full in the next section.
 
 ---
 

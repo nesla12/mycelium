@@ -23,8 +23,13 @@ const href = (slug: string) => `/resources/${slug}`;
     <p class="lede rise rise-3">
       Everything below is open and free. No signup, no email gate. Read each
       document here, or download the Markdown and take it into your classroom,
-      your school, or your own fork. If you have no AI access in the room, the
-      workbooks still run from their printable materials.
+      your school, or your own fork.
+    </p>
+    <p class="note rise rise-3">
+      Start with the curriculum: it is the spine of the framework, covering
+      birth to twelve. The Pillar 3 workbook is the AI-mastery capstone for ages
+      ten and up, and the most ready-to-run module if you want to begin
+      teaching tomorrow.
     </p>
   </section>
 
@@ -53,6 +58,13 @@ const href = (slug: string) => `/resources/${slug}`;
     line-height: 1.55;
     color: var(--color-ink-soft);
     margin-top: 1.2rem;
+  }
+  .note {
+    margin-top: 1rem;
+    color: var(--color-ink-soft);
+    font-size: 1rem;
+    border-left: 3px solid var(--color-pine);
+    padding-left: 1rem;
   }
   .grid {
     margin-top: 3rem;

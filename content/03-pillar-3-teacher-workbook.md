@@ -5,8 +5,7 @@ slug: "pillar-3-teacher-workbook"
 order: 3
 pillar: 3
 audience: "Teachers"
-featured: true
-summary: "Pillar 3, foundational. Eight ready-to-run sessions teaching children to use, question, and out-think AI, with printable handouts and assessment. Runs even without live AI access."
+summary: "Pillar 3, the AI-mastery capstone. Eight ready-to-run sessions teaching children to use, question, and out-think AI, with printable handouts and assessment. Runs even without live AI access."
 ---
 
 # Pillar 3: AI Mastery for Children

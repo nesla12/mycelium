@@ -5,7 +5,8 @@ slug: "pillar-1-curriculum"
 order: 2
 pillar: 1
 audience: "Teachers and parents"
-summary: "Pillar 1. The one principle, the methods that work at every age, the three developmental bands, and the physical substrate."
+featured: true
+summary: "Pillar 1, the spine of the whole framework. The one principle, the methods that work at every age, the three developmental bands from birth to twelve, and the physical substrate."
 ---
 
 # MYCELIUM Learning Framework

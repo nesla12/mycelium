@@ -51,19 +51,21 @@ The Human-Core Initiative is not a new pedagogy invented from scratch. That woul
 
 ## What we believe
 
-These principles are constitutional. They are the test every contribution must pass.
+These principles are constitutional. They are the test every contribution must pass. Each one is a short rule you can hold in your head and use to judge a decision.
 
-**Human first, evidence first.** We build on what the science of learning shows, not on what is intuitive or fashionable. Where evidence is contested, we say so. Where a beloved idea is wrong, we drop it.
+**Build the human before the skill.** Development rests on sleep, movement, play, language, and a present adult who talks and listens. These are the foundation, not the extras, and they come first.
 
-**AI points at the adults and at empowerment, never at surveilling children's feelings.** We use AI to make teachers more responsive, to teach children to master AI, and to catch developmental needs early. We never use AI to infer the emotional or inner state of a child.
+**The child does the thinking.** Learning is the residue of the child's own mental effort. Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive.
 
-**Knowledge before skill, at every age.** Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.
+**Knowledge before skill.** Critical thinking, creativity, and judgment grow from a deep base of knowledge. Build the base, and the higher abilities become possible.
 
-**The child does the thinking.** Any tool, screen, adult, or AI that does the thinking for the child is removed, however impressive. Learning is the residue of the child's own mental effort.
+**Meet the child where they are.** Teach at the child's actual level, not the level of the curriculum and not the top of the class. Move them forward from there.
 
-**Teach each child at their actual level.** Not at the level of the curriculum, not at the top of the class. Meet children where they are and move them forward from there.
+**Hard but achievable.** Guide the child's effort at the edge of what they can do. Effortful success is where learning and curiosity live; boredom and defeat are where they die.
 
-**Open by default, global by design.** Everything is free, forkable, and translatable, owned by no company, adoptable by anyone on earth.
+**Take what works, from anywhere.** We build on the strongest global evidence about how humans actually learn, and we drop what is merely fashionable or familiar, however beloved.
+
+Two commitments hold alongside these principles. The framework is **free and open** forever, owned by no company and forkable by anyone. And we hold one hard **boundary**, stated in full below: our tools serve the human, and we never build systems that infer the emotional or inner states of children.
 
 ---
 
