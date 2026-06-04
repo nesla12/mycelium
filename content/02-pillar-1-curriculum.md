@@ -1,20 +1,22 @@
 ---
 title: "MYCELIUM Learning Framework"
-subtitle: "An evidence-based curriculum and methods guide for teachers and parents, ages 0 to 12"
+subtitle: "The evidence-based curriculum for raising a capable human, birth to twelve"
 slug: "pillar-1-curriculum"
 order: 2
 pillar: 1
 audience: "Teachers and parents"
 featured: true
-summary: "Pillar 1, the spine of the whole framework. The one principle, the methods that work at every age, the three developmental bands from birth to twelve, and the physical substrate."
+summary: "Pillar 1, the spine of the whole framework. One principle, the methods that work at every age, and a sequenced curriculum from the first months of life to the threshold of AI mastery, body and brain first, then knowledge, then judgment."
 ---
 
 # MYCELIUM Learning Framework
 
-### An evidence-based curriculum and methods guide for teachers and parents
-#### Ages 0 to 12, designed for a digital and AI world
+### The evidence-based curriculum for raising a capable human
+#### Birth to twelve, designed for a digital and AI world
 
-This is a working guide, not a manifesto. Every method here is drawn from the strongest available evidence on how children actually learn, and every claim is attributable to research listed at the end. It is built to be used by a teacher with thirty children or a parent with one.
+This is the spine of the Human-Core Initiative: one curriculum, from the first months of life to the point where a child is ready to master AI. It is a working guide, not a manifesto. Every method here is drawn from the strongest available evidence on how children actually learn and develop, and every claim is attributable to research listed at the end. It is built to be used by a teacher with thirty children or a parent with one.
+
+**How to use it.** Find the child's developmental band and start there. A parent of a baby or toddler begins at the foundations. A primary teacher works in the building years. From about age ten, the AI-mastery capstone (Pillar 3) is added on top. You do not need a budget, special training, or technology. You need a clear goal for the child's effort, and the patience to let the child do the work.
 
 ---
 
@@ -32,19 +34,31 @@ Two things follow, and they hold at every age:
 
 ---
 
+## How development actually unfolds
+
+Before the methods, the shape of the thing being built. A child is not a small adult to be filled with facts. They are a developing brain and body, built in a predictable order, and the curriculum follows that order rather than fighting it.
+
+**The brain is built by experience, in sequence.** Early development goes from the bottom up: the senses and the body first, then language and self-control, then the higher reasoning that the rest supports. Skills are built on skills. This is why the curriculum starts with the body and the bond, not the worksheet. The most important early input is responsive interaction, the back-and-forth of an adult and a child, sometimes called serve and return: the child acts, the adult responds, and the loop wires the brain.
+
+**Build the human before the skill.** Sleep, movement, play, language, and a present adult are not the soft preliminaries to real learning. At the start, they are the real learning, and they remain the platform everything later stands on. A tired, sedentary, unspoken-to child cannot learn well, however good the teaching.
+
+**Help, do not hinder.** Much of early development is not about adding stimulation but about not getting in the way. The hindrances are predictable: too much screen time displacing real interaction, a passive or harsh adult, hurried academic drilling before the foundations are ready, and removing the struggle that learning is made of. The methods below are as much about what to protect as what to add.
+
+---
+
 ## The engine: methods that work at every age
 
 These are the highest-leverage moves in all of education. They cost nothing and they apply from playgroup to secondary school. Adjust the form, never abandon the method.
 
-**Guide the effort.** Never leave a novice to discover a new idea alone. Show, model, and walk through worked examples before asking the child to do it independently. Release responsibility gradually as competence grows.
+**Guide the effort.** Never leave a novice to discover a new idea alone. Show, model, and walk through worked examples before asking the child to do it independently. Release responsibility gradually as competence grows. A useful, well-tested sequence for direct teaching: review prior learning, present new material in small steps, ask many questions and check that everyone understood, model with worked examples, guide early practice, then move to independent practice.
 
-**Build knowledge richly and in sequence.** Teach a coherent, connected body of knowledge, because new learning sticks to what is already known. The more a child knows, the faster they learn the next thing. Breadth of vocabulary and background knowledge is the engine of reading comprehension.
+**Build knowledge richly and in sequence.** Teach a coherent, connected body of knowledge, because new learning sticks to what is already known. The more a child knows, the faster they learn the next thing. Breadth of vocabulary and background knowledge is the engine of reading comprehension: a child understands a text about a subject they already know far better than a stronger reader who lacks that knowledge.
 
-**Make them recall, don't just review.** Retrieving an answer from memory strengthens learning far more than rereading or being shown it again. Use low-stakes recall constantly: quick questions, "tell me what you remember," flashcards, a problem with the book closed. This is the single most underused powerful technique in classrooms and homes.
-- Teacher: open every lesson with three questions on prior material.
+**Make them recall, do not just review.** Retrieving an answer from memory strengthens learning far more than rereading or being shown it again. Use low-stakes recall constantly: quick questions, "tell me what you remember," flashcards, a problem with the book closed. This is the single most underused powerful technique in classrooms and homes.
+- Teacher: open every lesson with a few questions on prior material.
 - Parent: at dinner, ask the child to teach you one thing they learned today.
 
-**Space it out.** Revisiting material across days and weeks beats cramming it once. Plan deliberate return visits to old content rather than teaching a topic and moving on forever.
+**Space it out, and mix it up.** Revisiting material across days and weeks beats cramming it once. Plan deliberate return visits to old content. In subjects like mathematics, interleaving different problem types rather than blocking one type at a time makes practice harder in the moment and stronger in the long run.
 
 **Feed back fast and specifically.** Tell the child what is right, what is wrong, and what to do next, as close to the moment as possible. Vague praise does nothing. Specific, actionable feedback is among the most powerful levers there is.
 
@@ -54,55 +68,110 @@ These are the highest-leverage moves in all of education. They cost nothing and 
 
 ---
 
-## The three developmental bands
+## Band A. Foundations, roughly birth to six
 
-### Band A. Foundations, roughly birth to six
+At this age the brain is built through warm, responsive interaction, language, movement, and play. Formal academic drilling is the wrong tool. The right tool is guided play, which means play with a learning goal gently held by the adult, with the child free to explore inside it. The order of priorities below is deliberate: the body and the bond come first, because everything else is built on them.
 
-At this age the brain is built through warm, responsive interaction, language, movement, and play. Formal academic drilling is the wrong tool. The right tool is guided play, which means play with a learning goal gently held by the adult, with the child free to explore inside it.
+### The body first
 
-What matters most:
+Movement is not a break from learning at this age. It is learning. Physical activity supports attention, mood, and the developing executive functions, and the gross movements of early childhood lay the groundwork for the fine control needed later for handwriting and tools.
 
-**Talk, constantly and richly.** The volume and quality of language a child hears predicts later reading and thinking. Narrate the day, name things, ask real questions, listen to the answers. Read aloud daily, the same favorites on repeat, pointing at words.
+Build it roughly in this order, with lots of overlap:
 
-**Guided play over both free-for-all and worksheets.** Set up play with a purpose. Count the steps as you climb them. Sort the laundry by color and shape. Build and knock down to feel number and size. The adult steers with open questions ("what do you think happens if?") rather than instruction.
+- **Big movements and balance first.** Crawling, climbing, balancing, running, jumping, rolling, hanging, carrying. Let the child move, fall safely, and try again. Time on the floor and outdoors beats time in a seat or a device.
+- **Fundamental movement skills.** The building blocks that everything athletic and practical later rests on: balance and stability, locomotion (running, jumping, hopping, skipping), and object control (throwing, catching, kicking, rolling a ball). Teach and practise these directly through games.
+- **Coordination and rhythm.** Games and traditions that build coordination, balance, rhythm, and crossing the midline of the body: clapping and rhythm games, hopping patterns, balancing along a line, catching and throwing, simple dance and movement to a beat. Many physical-play traditions around the world are built for exactly this, and they double as practice in turn-taking and rules.
+- **Fine motor, as it becomes possible.** Crayons, scissors, threading beads, tearing and folding paper, building, doing up buttons. These prepare the hand for writing and, with it, free the mind to compose later.
 
-**Self-regulation is the real curriculum.** The ability to wait, focus, switch tasks, and manage frustration predicts later success more than early academics do. Build it through games with rules, turn-taking, pretend play with roles, and calm adult co-regulation when emotions run high.
+### Language, constantly and richly
 
-**Bodies and hands.** Climbing, balancing, running, and fine motor work with crayons, scissors, and beads lay the groundwork for attention and for handwriting later. Movement is not a break from learning at this age. It is learning.
+The volume and quality of language a child hears predicts later reading and thinking. What matters most is not a recording or a screen but real back-and-forth: the conversational turns between an adult and a child, where each responds to the other. Narrate the day, name things, ask real questions, and listen to the answers. Read aloud daily, the same favourites on repeat, pointing at the words.
 
-**Early literacy and number, playfully.** Play with the sounds in words (rhyming, clapping syllables, "what sound does cat start with?"). This phonemic awareness is the bridge to reading. For number, focus on quantity and one-to-one counting in real situations, not abstract symbols.
+Then, playfully, build the bridge to reading: play with the sounds inside words. Rhyming, clapping the syllables in a name, "what sound does cat start with?" This phonemic awareness is what makes learning to read possible later.
 
-**Digital and AI at this age:** keep it minimal. Very young children learn from people and physical reality, not screens. The most valuable digital use here is invisible to the child: a parent using AI to find a song, answer their own question about child development, or plan an activity. The child's world stays analog, social, and physical.
+### Play, with a quiet purpose
 
-### Band B. Building, roughly six to ten
+Set up play with a goal the adult holds lightly while the child explores inside it. Count the steps as you climb them. Sort the laundry by colour and shape. Build a tower and knock it down to feel number, size, and balance. The adult steers with open questions ("what do you think happens if?") rather than instruction. Guided play of this kind matches or beats both unstructured free-for-all and formal worksheets at this age.
 
-This is the explicit-instruction era. The child is acquiring the foundational skills that everything later depends on, and the evidence here is unambiguous: clear, systematic, teacher-led instruction with lots of practice wins, and it especially helps children who arrive behind.
+### Self-regulation is the real curriculum
 
-**Reading: teach decoding explicitly, then feed comprehension with knowledge.** Teach letter-sound relationships systematically and directly until decoding is fluent and automatic. Do not rely on guessing from pictures or context. Once decoding is solid, comprehension is driven by vocabulary and background knowledge, so read widely across science, history, geography, and stories, building the knowledge that lets a child understand what they decode.
+The ability to wait, focus, switch tasks, and manage frustration predicts later success more than early academics do. It can be deliberately built: games with rules that demand you stop and think before acting, turn-taking, pretend play with assigned roles, and calm adult co-regulation when emotions run high. A child who can hold a goal in mind and resist the first impulse is a child who can later learn anything.
 
-**Mathematics: concrete, then pictorial, then abstract.** Introduce every new idea with physical objects, then with drawings, then with symbols. Build fact fluency (number bonds, times tables) to automaticity so working memory is free for reasoning. Mastery before moving on: do not advance until the current step is secure. Then apply it to real problems.
+### Early number, playfully
 
-**Science: teach the concept, confront the misconception.** Children arrive with strong wrong models of the world. Teach the correct concept explicitly and directly address the predictable misconception. Hands-on activity is valuable, but as a way to illustrate and cement a taught concept, not as a way to discover it from scratch.
+Focus on quantity, not abstract symbols. Count real things one to one. Notice "more" and "fewer." Recognise small amounts at a glance without counting. Build a feel for number through cooking, climbing stairs, and sharing snacks, long before any sum is written down.
 
-**Writing and handwriting.** Teach handwriting explicitly. The physical act supports letter learning and frees attention for composing. Build writing from sentences up, with models and clear structure.
+### Digital and AI at this age: keep it minimal
 
-**Make the engine daily.** This is the band where retrieval practice and spaced review should become routine. Short daily recall, weekly returns to old material, frequent low-stakes quizzing with immediate feedback.
+Very young children learn from people and physical reality, not screens. The most valuable digital use here is invisible to the child: a parent using AI to find a song, answer their own question about child development, or plan an activity. The child's world stays analog, social, and physical.
 
-**Digital and AI at this age:** introduce it deliberately and under supervision. A pedagogically designed tutor or practice app that gives immediate feedback and adapts to the child can genuinely accelerate learning. The non-negotiable rule, taught from the first day: the child attempts the thinking first, and the tool checks, hints, or explains, but never hands over the answer before the child has tried. Begin basic AI literacy: AI can be wrong, AI is not a person, AI does not know you. Keep recreational screen time bounded and protect sleep and play.
+---
 
-### Band C. Deepening, roughly ten to twelve
+## Band B. Building, roughly six to ten
 
-Now the child has enough knowledge to use it. This is where the distinctive, human, ambitious parts of the framework finally belong, because they rest on a real foundation.
+This is the explicit-instruction era. The child is acquiring the foundational skills that everything later depends on, and the evidence here is unambiguous: clear, systematic, teacher-led instruction with plenty of practice wins, and it especially helps children who arrive behind. Teach each child at their actual level, not the level of the curriculum or the top of the class.
 
-**Apply knowledge through projects and inquiry, now that it exists.** Open-ended investigation, design challenges, and extended projects become genuinely productive here, because the child has the background knowledge to explore without drowning. Keep them structured, with clear goals and support.
+### Reading: decode explicitly, then comprehend through knowledge
 
-**Teach by teaching.** Have older children explain and mentor younger ones. Preparing to teach and explaining out loud forces the kind of organized thinking that cements understanding. This is also where social maturity grows.
+Reading is two things multiplied together: the ability to decode words, and the language and knowledge to understand them. Both must be built, and they are built differently.
 
-**Make thinking moves explicit, inside each subject.** Critical thinking does not transfer well when taught in the abstract. Teach it embedded: how a historian weighs a source, how a scientist isolates a variable, how to spot a weak argument. Name the move, model it, practice it on rich content, debate real questions.
+- **Decoding.** Teach the letter-sound relationships systematically and directly, in a planned sequence, until decoding is fluent and automatic. Do not rely on guessing from pictures or context. Systematic phonics is one of the most settled findings in education.
+- **Comprehension.** Once decoding is solid, understanding is driven by vocabulary and background knowledge. So read widely across science, history, geography, and stories, deliberately building the knowledge that lets a child understand what they decode. Comprehension is not a free-floating skill to be drilled; it grows out of knowing things.
 
-**Metacognition.** Teach the child how learning itself works: why recall beats rereading, why difficulty is good, how to plan and check their own thinking. Children who understand their own learning direct it better.
+### Mathematics: concrete, then pictorial, then abstract
 
-**Digital and AI at this age, in full:** this is where AI literacy becomes a serious strand, because these children will live and work with these tools. Teach them to use AI as a thinking partner that they remain in charge of: prompt it then judge the output rather than copying it; verify its claims against trusted sources because it can be fluent and wrong; use it to get unstuck and to critique their own work, not to produce work they cannot explain; understand at a basic level how it works and where bias enters; and discuss the ethics of when using it is honest and when it is not. The governing test never changes: if the AI increases how much the child thinks, it is a tutor; if it replaces the child's thinking, it is a crutch that quietly weakens them.
+Introduce every new idea first with physical objects the child can move, then with drawings and diagrams, then with the abstract symbols. This concrete-pictorial-abstract sequence is the backbone of the mathematics teaching used in the highest-performing systems, and it rests on a long-established insight about how understanding is built from action, to image, to symbol.
+
+- Build a strong sense of number and place value before procedures.
+- Drill the number facts (number bonds, times tables) to automaticity, so working memory is free for reasoning.
+- Teach for mastery: do not advance until the current step is secure, then apply it to real problems.
+- Space and interleave practice rather than teaching a topic once and leaving it.
+
+### Science: teach the concept, confront the misconception
+
+Children arrive with strong, wrong models of the world. Teach the correct concept explicitly and directly address the predictable misconception. Hands-on activity is valuable, but as a way to illustrate and cement a concept that has been taught, not as a way to discover it from scratch.
+
+### Writing and handwriting
+
+Teach handwriting explicitly. Forming letters by hand, rather than only typing or tracing, supports learning the letters themselves and frees attention for composing later. Build writing from sentences up, with clear models and structure.
+
+### Make the engine daily
+
+This is the band where the universal methods become routine: short daily retrieval of prior material, weekly returns to old content, frequent low-stakes quizzing with immediate feedback, worked examples before independent practice, and small steps with checks for understanding.
+
+### Digital and AI at this age: deliberate and supervised
+
+A pedagogically designed tutor or practice app that gives immediate feedback and adapts to the child can genuinely accelerate learning. The non-negotiable rule, taught from the first day: the child attempts the thinking first, and the tool checks, hints, or explains, but never hands over the answer before the child has tried. Begin basic AI literacy: AI can be wrong, AI is not a person, AI does not know you. Keep recreational screen time bounded and protect sleep and play.
+
+---
+
+## Band C. Deepening, roughly ten to twelve
+
+Now the child has enough knowledge to use it. This is where the distinctive, human, ambitious parts of the framework finally belong, because they rest on a real foundation. This band runs straight into the AI-mastery capstone of Pillar 3.
+
+- **Apply knowledge through projects and inquiry, now that it exists.** Open-ended investigation, design challenges, and extended projects become genuinely productive here, because the child has the background knowledge to explore without drowning. Keep them structured, with clear goals and support.
+- **Teach by teaching.** Have older children explain and mentor younger ones. Preparing to teach and explaining out loud forces the kind of organised thinking that cements understanding, and the one doing the explaining usually learns the most.
+- **Make thinking moves explicit, inside each subject.** Critical thinking does not transfer well when taught in the abstract. Teach it embedded: how a historian weighs a source, how a scientist isolates a variable, how to spot a weak argument. Name the move, model it, practise it on rich content, debate real questions.
+- **Metacognition.** Teach the child how learning itself works: why recall beats rereading, why difficulty is good, how to plan and check their own thinking. Children who understand their own learning direct it better.
+- **The AI capstone.** This is where AI literacy becomes a serious strand, because these children will live and work with these tools. The full programme is Pillar 3: the Teacher Workbook for ages ten to twelve, and The Frontier for twelve to fourteen. The governing test never changes: if the AI increases how much the child thinks, it is a tutor; if it replaces the child's thinking, it is a crutch that quietly weakens them.
+
+---
+
+## The competences school tends to skip
+
+Schools teach a great deal and skip some of the most useful things in a whole life, sometimes because they are hard to test, sometimes because no one decided they were the school's job. This framework treats them as part of the curriculum, not extras, and builds them in age-appropriate forms from early on. They are practised, not lectured.
+
+- **Learning how to learn.** The methods in this guide, made explicit to the child, so they can direct their own learning for life.
+- **Handling money** and not being exploited by it.
+- **Attention and emotional self-management**, built from the early self-regulation work upward.
+- **Relationships, cooperation, and asking for help.**
+- **Making and fixing real things** with your hands, and understanding how things work.
+- **The body, sleep, and health**, understood well enough to look after.
+- **Starting things and seeing them through** without waiting for permission.
+- **Telling truth from manipulation**, which by the deepening years includes telling a sound argument, and a sound AI answer, from a persuasive but empty one.
+- **Making decisions under uncertainty.**
+
+These are introduced in simple forms early (turn-taking is the seed of cooperation; saving a few coins is the seed of handling money) and deepened as the child grows, becoming explicit in the deepening years and in Pillar 3.
 
 ---
 
@@ -112,7 +181,7 @@ None of the above works on a tired, sedentary, unspoken-to child. These are prec
 
 **Sleep.** Memory is consolidated during sleep. A chronically under-slept child cannot learn well, however good the teaching. Protect it fiercely, especially against evening screens.
 
-**Movement.** Physical activity supports attention, mood, and cognition. Build it into the day rather than treating it as the reward for sitting still.
+**Movement.** Physical activity supports attention, mood, and cognition across childhood. Build it into the day rather than treating it as the reward for sitting still.
 
 **Play and free time.** Unstructured play builds social skill, creativity, and self-regulation. Over-scheduling crowds out development.
 
@@ -122,9 +191,9 @@ None of the above works on a tired, sedentary, unspoken-to child. These are prec
 
 ---
 
-## How to know it's working, without testing them into the ground
+## How to know it is working, without testing them into the ground
 
-You do not need standardized tests to see learning. You need cheap, frequent signals.
+You do not need standardised tests to see learning. You need cheap, frequent signals.
 
 - **Can they recall it cold?** Ask, days later, without the book. If it comes back, it stuck.
 - **Can they teach it?** If a child can explain something clearly to someone else, they understand it. If they cannot, they do not, regardless of what a worksheet said.
@@ -142,16 +211,45 @@ This is a methods and curriculum guide, not a school in a box and not a guarante
 - The largest single lever is not a method or a tool. It is a knowledgeable, well-supported teacher and an engaged adult at home. No framework substitutes for that.
 - Some popular ideas were deliberately excluded because the evidence does not support them, including matching teaching to "learning styles," teaching generic thinking skills detached from content, and expecting unguided discovery to teach novices.
 - The AI evidence is new and moving fast. Treat the specific tools as provisional and the underlying principle, that the child must do the thinking, as durable.
+- This is a living document. Where the evidence is contested, we say so, and we expect a research partner to verify, challenge, and extend the sources below.
 
 ---
 
 ## Sources this guide draws on
 
-- Kirschner, Sweller and Clark (2006) on the failure of minimally guided instruction for novices.
+This curriculum synthesises well-established findings from the science of learning and child development. It is a first consolidation, and consistent with our evidence standard the citations are to be independently verified and extended.
+
+**Instruction and the science of learning**
+- Kirschner, Sweller and Clark (2006) on the failure of minimally guided instruction for novices, and cognitive load theory.
+- Rosenshine (2012), *Principles of Instruction*, on the steps of effective explicit teaching.
 - Project Follow Through evaluation (1968 to 1977) on the effectiveness of Direct Instruction.
-- Willingham, *Why Don't Students Like School?* on knowledge preceding skill and memory as the residue of thought.
-- National Reading Panel and the broader science of reading on explicit, systematic decoding instruction, with the Bowers (2020) critique noted for balance.
+- Willingham, *Why Don't Students Like School?*, and Recht and Leslie (1988), on knowledge preceding skill and driving comprehension.
+
+**Reading**
+- National Reading Panel (2000) and the broader science of reading on explicit, systematic phonics.
+- Gough and Tunmer (1986), the simple view of reading: reading equals decoding times language comprehension.
+- Castles, Rastle and Nation (2018), "Ending the Reading Wars," on how children learn to read and why systematic phonics comes first.
+
+**Mathematics**
+- Bruner on the enactive, iconic, and symbolic stages of representation, the basis of the concrete-pictorial-abstract sequence used in Singapore-style mastery mathematics.
+- Rohrer and colleagues on interleaving practice in mathematics.
+
+**Early childhood, movement, and self-regulation**
 - Skene et al. (2022), systematic review and meta-analysis on guided play in early childhood.
-- Kestin et al. (2025, Harvard) and the LearnLM schools trial (2025) on well-designed AI tutoring.
-- Kosmyna et al. (2025) and related work on cognitive offloading and over-reliance on AI.
-- Established cognitive science on retrieval practice, spaced practice, worked examples, and cognitive load.
+- Diamond and Lee (2011) and related work on interventions, including Tools of the Mind, that improve executive function in young children.
+- The Harvard Center on the Developing Child on serve-and-return interaction and the sequential building of brain architecture.
+- Donnelly et al. (2016) on physical activity, cognition, and academic achievement in children.
+- Research on fundamental movement skills and physical literacy as the foundation of later motor competence.
+- Romeo et al. (2018) on conversational turns and children's language development, with the note that the older Hart and Risley "word gap" framing is contested.
+
+**Memory and practice**
+- Roediger and Karpicke (2006) on retrieval practice.
+- Dunlosky et al. (2013) on which study techniques actually work.
+- Bjork on desirable difficulties.
+
+**Writing**
+- Research on handwriting and letter formation supporting letter learning (for example James and colleagues).
+
+**Targeted instruction and AI**
+- Pratham and J-PAL on Teaching at the Right Level and targeted instruction.
+- Kestin et al. (2025, Harvard) and the LearnLM schools trial (2025) on well-designed AI tutoring, with Kosmyna et al. (2025) on the harms of AI over-reliance.
