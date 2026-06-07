@@ -48,14 +48,14 @@ import Base from "../layouts/Base.astro";
       <div class="practical">
         <p class="practical-label">Start doing it today</p>
         <p>
-          The concrete, do-today modules:
-          <strong><a href="/resources/foundations-first-three-years">Foundations: The First Three Years</a></strong>
-          (birth to three, for parents and carers), and
-          <strong><a href="/resources/building-years-reading-and-maths">The Building Years: Reading and Mathematics</a></strong>
-          (ages six to ten: the lesson shape, the phonics sequence, fluency
-          benchmarks, and the maths facts to automate). More age bands are being
-          written in the same format.
+          The concrete, do-today modules, age band by age band:
         </p>
+        <ul class="practical-list">
+          <li><strong><a href="/resources/foundations-first-three-years">Foundations: The First Three Years</a></strong> (birth to three).</li>
+          <li><strong><a href="/resources/bridge-years-three-to-six">The Bridge Years: Ages Three to Six</a></strong> (the precursors to reading and number, through play).</li>
+          <li><strong><a href="/resources/building-years-reading-and-maths">The Building Years: Reading and Mathematics</a></strong> (ages six to ten: the lesson shape, the phonics sequence, fluency benchmarks, the maths facts to automate).</li>
+        </ul>
+        <p>The later bands (the deepening years, and the AI capstone) follow in the same format.</p>
       </div>
       <a class="text-link" href="/resources/pillar-1-curriculum">Read the full MYCELIUM Learning Framework <span aria-hidden="true">&rarr;</span></a>
     </div>
@@ -172,6 +172,9 @@ import Base from "../layouts/Base.astro";
     padding: 1.1rem 1.3rem;
   }
   .practical p { margin: 0; }
+  .practical-list { margin: 0.6rem 0; padding-left: 1.1rem; display: grid; gap: 0.4rem; }
+  .practical-list li { color: var(--color-ink-soft); }
+  .practical-list a { font-weight: 600; }
   .practical-label {
     font-size: 0.74rem;
     font-weight: 600;

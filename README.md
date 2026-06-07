@@ -58,6 +58,7 @@ All resources are free, with no signup and no email gate. Read them on the site,
 |----------|-----|-----------|
 | **[MYCELIUM Learning Framework](content/02-pillar-1-curriculum.md)** | Teachers and parents | Pillar 1, the spine. The evidence-based curriculum from birth to twelve, body and language first, then knowledge, then judgment. **Start here.** |
 | [Foundations: The First Three Years](content/09-foundations-first-three-years.md) | Parents and carers | The concrete, do-today playbook for birth to three: what is developing, the activities to do this week, and how to tell it is working. |
+| [The Bridge Years: Ages Three to Six](content/11-bridge-years-three-to-six.md) | Parents and early-years teachers | The precursors to reading and number, built through play: oral language, sound awareness, letters, early number, and the hand. What school readiness actually is. |
 | [The Building Years: Reading and Mathematics](content/10-building-years-reading-and-maths.md) | Teachers and parents | The do-Monday module for ages 6 to 10: the lesson shape, the phonics sequence, fluency benchmarks, the maths facts to automate, and the bar model. |
 | [The Problem With Screens](content/07-screens-and-childhood.md) | Parents and teachers | What devices do to a developing child, the displacement problem, the evidence and where it is contested, and a practical plan by age. |
 | [Understanding AI](content/08-understanding-ai.md) | Parents and teachers | What AI is, the cognitive offloading danger, and why teaching mastery beats both banning it and surrendering to it. |

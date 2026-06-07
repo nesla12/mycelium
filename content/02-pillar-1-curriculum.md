@@ -72,7 +72,7 @@ These are the highest-leverage moves in all of education. They cost nothing and 
 
 At this age the brain is built through warm, responsive interaction, language, movement, and play. Formal academic drilling is the wrong tool. The right tool is guided play, which means play with a learning goal gently held by the adult, with the child free to explore inside it. The order of priorities below is deliberate: the body and the bond come first, because everything else is built on them.
 
-For the practical, stage-by-stage version of the earliest years, with specific activities to do each week from birth to three, see the companion guide [Foundations: The First Three Years](/resources/foundations-first-three-years).
+For the practical, do-today version of these years, see the companion guides [Foundations: The First Three Years](/resources/foundations-first-three-years) (birth to three) and [The Bridge Years: Ages Three to Six](/resources/bridge-years-three-to-six) (the precursors to reading and number, built through play).
 
 ### The body first
 
