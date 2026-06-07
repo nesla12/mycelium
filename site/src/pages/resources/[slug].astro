@@ -15,7 +15,6 @@ const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const t = useTranslations("en");
 
-const downloadHref = `/downloads/${entry.id}.md`;
 // Section-level headings for the table of contents. The leading title block is
 // stripped from the body (see remark/strip-leading-title.mjs), so the top
 // headings here are real sections, whether a document uses # or ## for them.
@@ -37,10 +36,7 @@ const toc = headings.filter((h) => h.depth <= 2);
       <h1>{entry.data.title}</h1>
       {entry.data.subtitle && <p class="doc-subtitle">{entry.data.subtitle}</p>}
       <div class="doc-actions">
-        <a class="btn btn-primary" href={downloadHref} download>
-          {t("common.download")}
-        </a>
-        <button class="btn btn-ghost" type="button" onclick="window.print()">
+        <button class="btn btn-primary" type="button" onclick="window.print()">
           {t("common.print")}
         </button>
       </div>
@@ -66,7 +62,7 @@ const toc = headings.filter((h) => h.depth <= 2);
     <footer class="doc-foot">
       <div class="doc-foot-actions">
         <a class="btn btn-ghost" href="/resources">{t("common.backToResources")}</a>
-        <a class="btn btn-primary" href={downloadHref} download>{t("common.download")}</a>
+        <button class="btn btn-primary" type="button" onclick="window.print()">{t("common.print")}</button>
       </div>
     </footer>
   </article>

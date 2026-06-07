@@ -2,7 +2,7 @@
 
 The site is a static build. Two paths are given below. **Vercel stands up the fastest, so it is the default recommendation.** The VPS path is for self-hosting behind your own Traefik.
 
-The site lives in the `site/` subdirectory and reads the canonical documents from `content/` at build time. The build command (`npm run build`) first syncs `/content` into the downloadable files, then produces the static output in `site/dist`.
+The site lives in the `site/` subdirectory and reads the canonical documents from `content/` at build time, producing the static output in `site/dist`.
 
 ---
 
@@ -70,5 +70,5 @@ To update after changing content or code: `git pull` then `docker compose up -d 
 ## Notes
 
 - The build is fully static. There is no server runtime, no database, and no secrets.
-- Markdown downloads are served from `/downloads/<name>.md` and are generated at build time from `/content`.
+- The site reads the documents directly from `/content`; each rendered page can be printed or saved to PDF from the browser. The site does not serve raw Markdown files.
 - If you change the production domain, update `site` in `site/astro.config.mjs` so canonical URLs match.

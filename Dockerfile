@@ -18,8 +18,8 @@ WORKDIR /app
 COPY content ./content
 COPY site ./site
 
-# Build. The prebuild hook syncs /content into the downloadable copies, then
-# Astro produces the static site in /app/site/dist.
+# Build. Astro reads the documents directly from /app/content and produces the
+# static site in /app/site/dist.
 WORKDIR /app/site
 RUN npm run build
 

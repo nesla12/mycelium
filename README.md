@@ -52,11 +52,13 @@ The reason is not merely regulatory. Such inference is scientifically unreliable
 
 ## The resources
 
-All resources are free, with no signup and no email gate. Read them on the site or download the Markdown. Each lives in [`/content`](content) as a canonical document.
+All resources are free, with no signup and no email gate. Read them on the site, or print any of them to PDF from the page. Each lives in [`/content`](content) as a canonical document.
 
 | Document | For | What it is |
 |----------|-----|-----------|
 | **[MYCELIUM Learning Framework](content/02-pillar-1-curriculum.md)** | Teachers and parents | Pillar 1, the spine. The evidence-based curriculum from birth to twelve, body and language first, then knowledge, then judgment. **Start here.** |
+| [Foundations: The First Three Years](content/09-foundations-first-three-years.md) | Parents and carers | The concrete, do-today playbook for birth to three: what is developing, the activities to do this week, and how to tell it is working. |
+| [The Building Years: Reading and Mathematics](content/10-building-years-reading-and-maths.md) | Teachers and parents | The do-Monday module for ages 6 to 10: the lesson shape, the phonics sequence, fluency benchmarks, the maths facts to automate, and the bar model. |
 | [The Problem With Screens](content/07-screens-and-childhood.md) | Parents and teachers | What devices do to a developing child, the displacement problem, the evidence and where it is contested, and a practical plan by age. |
 | [Understanding AI](content/08-understanding-ai.md) | Parents and teachers | What AI is, the cognitive offloading danger, and why teaching mastery beats both banning it and surrendering to it. |
 | [Pillar 3 Teacher Workbook](content/03-pillar-3-teacher-workbook.md) | Teachers | The AI-mastery capstone, ages 10 to 12. Eight ready-to-run sessions teaching children to use, question, and out-think AI. Runs even without AI in the room, and the most ready-to-run module. |
@@ -75,7 +77,6 @@ The curriculum is the spine. **Start there.** If you want to begin teaching tomo
 .
 ├── content/            The canonical Markdown documents. Single source of truth.
 ├── site/               The Astro website (static, Tailwind, Markdown-native).
-├── resources/          Downloadable copies, synced from /content (do not edit).
 ├── README.md           This file.
 ├── CONSTITUTION.md     The non-negotiable principles and the boundary.
 ├── CONTRIBUTING.md     How to contribute, and the evidence standard.
@@ -85,7 +86,7 @@ The curriculum is the spine. **Start there.** If you want to begin teaching tomo
 └── docker-compose.yml  Deploy behind Traefik.
 ```
 
-**The documents in [`/content`](content) are the single source of truth.** The website renders them directly, and the downloadable copies in [`/resources`](resources) are generated from them. Edit `/content` only; never edit the copies by hand.
+**The documents in [`/content`](content) are the single source of truth.** The website renders them directly. The Markdown in `/content` is also the copy for anyone (or any agent) who wants to read or fork the raw text; the website itself does not serve Markdown files, because people read the rendered pages and print to PDF, not raw `.md`.
 
 ---
 
@@ -96,12 +97,12 @@ A small, static [Astro](https://astro.build) site styled with Tailwind CSS v4, d
 ```bash
 cd site
 npm install
-npm run dev      # local dev server (runs the content sync first)
-npm run build    # static build into site/dist (runs the sync first)
+npm run dev      # local dev server
+npm run build    # static build into site/dist
 npm run preview  # serve the built site locally
 ```
 
-`npm run sync` copies the canonical documents into the downloadable mirrors. It runs automatically before `dev` and `build`, so you rarely call it directly.
+The site reads the canonical documents directly from `/content`, so there is no build step to keep copies in sync. Each rendered document can be printed or saved to PDF from the browser.
 
 See [DEPLOY.md](DEPLOY.md) for deployment (Vercel, or your own VPS behind Traefik).
 

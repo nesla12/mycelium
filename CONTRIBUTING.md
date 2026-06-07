@@ -43,12 +43,7 @@ No invented statistics, studies, quotes, or claims. If it is not supported, it d
 
 ## The source of truth
 
-The canonical documents live in [`/content`](content) as Markdown. Everything else is generated from them:
-
-- The website (`/site`) renders these files directly.
-- The downloadable copies (`/resources`) are synced from them.
-
-**Edit the canonical files in `/content` only.** Do not edit the copies in `/resources` by hand; they are regenerated. After editing content, run `npm run sync` from `/site` (it also runs automatically on every build) to refresh the downloads.
+The canonical documents live in [`/content`](content) as Markdown, and the website (`/site`) renders them directly. There are no generated copies to keep in sync: edit the files in `/content`, and the site picks them up. People read the rendered pages and print to PDF; the site does not serve raw Markdown.
 
 ---
 

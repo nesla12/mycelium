@@ -4,10 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "sync": "node scripts/sync-resources.mjs",
-    "predev": "npm run sync",
     "dev": "astro dev",
-    "prebuild": "npm run sync",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

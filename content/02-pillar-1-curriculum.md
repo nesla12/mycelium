@@ -117,6 +117,8 @@ Very young children learn from people and physical reality, not screens. The mos
 
 This is the explicit-instruction era. The child is acquiring the foundational skills that everything later depends on, and the evidence here is unambiguous: clear, systematic, teacher-led instruction with plenty of practice wins, and it especially helps children who arrive behind. Teach each child at their actual level, not the level of the curriculum or the top of the class.
 
+For the practical, do-Monday version of this band, with the phonics sequence, fluency benchmarks, the maths facts to automate, and a lesson shape you can run tomorrow, see the companion guide [The Building Years: Reading and Mathematics](/resources/building-years-reading-and-maths).
+
 ### Reading: decode explicitly, then comprehend through knowledge
 
 Reading is two things multiplied together. This is the Simple View of Reading (Gough and Tunmer, 1986): reading comprehension is decoding multiplied by language comprehension, and if either one is near zero, reading fails. Both must be built, and they are built differently.
