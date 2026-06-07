@@ -381,3 +381,33 @@ hr {
   }
   .btn:hover, .card:hover { transform: none; }
 }
+
+/* ----------------------------------------------------------------------------
+   Print: let any rendered document print as a clean handout (Print to PDF).
+   Hides chrome, drops to single column, and uses ink-on-paper.
+---------------------------------------------------------------------------- */
+@media print {
+  body {
+    background: #fff !important;
+    color: #000;
+    font-size: 11pt;
+  }
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .doc-toc,
+  .doc-actions,
+  .doc-foot-actions,
+  .back,
+  .btn {
+    display: none !important;
+  }
+  .wrap { max-width: none; padding: 0; }
+  .doc-body { display: block; }
+  .doc-prose { max-width: none; }
+  .prose { font-size: 11pt; line-height: 1.5; }
+  .prose h1, .prose h2, .prose h3, .prose h4 { break-after: avoid; }
+  .prose li, .prose p, .prose blockquote { break-inside: avoid; }
+  a { color: #000; text-decoration: none; }
+  .doc-head { max-width: none; }
+}

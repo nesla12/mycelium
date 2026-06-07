@@ -31,6 +31,7 @@ export const ui = {
     "footer.repo": "Repository",
     "common.readDocument": "Read the document",
     "common.download": "Download (.md)",
+    "common.print": "Print / Save as PDF",
     "common.backToResources": "All resources",
     "common.audience": "For",
     "common.onThisPage": "On this page",

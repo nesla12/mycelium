@@ -45,7 +45,16 @@ import Base from "../layouts/Base.astro";
         Beneath all three: sleep, movement, play, and a present adult who talks
         and listens.
       </p>
-      <a class="text-link" href="/resources/pillar-1-curriculum">Read the MYCELIUM Learning Framework <span aria-hidden="true">&rarr;</span></a>
+      <div class="practical">
+        <p class="practical-label">Start doing it today</p>
+        <p>
+          <strong><a href="/resources/foundations-first-three-years">Foundations: The First Three Years</a></strong>
+          is the first concrete, stage-by-stage module: what is developing at
+          each stage from birth to three, the specific activities to do this
+          week, and how to tell it is working. No apps, no cost.
+        </p>
+      </div>
+      <a class="text-link" href="/resources/pillar-1-curriculum">Read the full MYCELIUM Learning Framework <span aria-hidden="true">&rarr;</span></a>
     </div>
   </section>
 
@@ -151,6 +160,23 @@ import Base from "../layouts/Base.astro";
   }
   .bands strong { color: var(--color-ink); }
   .beneath { font-style: italic; }
+  .practical {
+    margin-top: 1.4rem;
+    background: var(--color-pine-tint);
+    border: 1px solid color-mix(in oklab, var(--color-pine) 20%, var(--color-line));
+    border-left: 3px solid var(--color-pine);
+    border-radius: 0.6rem;
+    padding: 1.1rem 1.3rem;
+  }
+  .practical p { margin: 0; }
+  .practical-label {
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-clay);
+    margin-bottom: 0.4rem !important;
+  }
   .callout p { margin: 0; color: var(--color-ink-soft); }
   .text-link { display: inline-block; font-weight: 600; text-decoration: none; }
   .pillar-links { display: grid; gap: 0.6rem; margin-top: 1.4rem; }

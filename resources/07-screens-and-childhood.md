@@ -69,7 +69,7 @@ The rule under all of this: **the device serves the child's development, or it i
 
 The same evidence that warns against passive, unmanaged consumption supports the opposite habit: deliberate, supervised, thinking-first use, and, from about age ten, active mastery of AI. The goal is not a child who fears technology. It is a child who is sovereign over it: who decides when to pick up the tool and when to put it down, and who is never quietly used by it.
 
-That is where this connects to the rest of the framework. Protecting the foundations in the early years is what makes mastery possible later. A child with built attention, real knowledge, and their own thinking is a child who can use AI as a partner rather than a crutch. See [Understanding AI](understanding-ai) for what these systems are and why mastery beats banning, and the Pillar 3 workbooks for how to teach it.
+That is where this connects to the rest of the framework. Protecting the foundations in the early years is what makes mastery possible later. A child with built attention, real knowledge, and their own thinking is a child who can use AI as a partner rather than a crutch. See [Understanding AI](/resources/understanding-ai) for what these systems are and why mastery beats banning, and the Pillar 3 workbooks for how to teach it.
 
 ---
 

@@ -40,6 +40,9 @@ const toc = headings.filter((h) => h.depth <= 2);
         <a class="btn btn-primary" href={downloadHref} download>
           {t("common.download")}
         </a>
+        <button class="btn btn-ghost" type="button" onclick="window.print()">
+          {t("common.print")}
+        </button>
       </div>
     </header>
 
@@ -98,7 +101,7 @@ const toc = headings.filter((h) => h.depth <= 2);
     margin: 0.8rem 0 0;
     line-height: 1.4;
   }
-  .doc-actions { margin-top: 1.6rem; }
+  .doc-actions { margin-top: 1.6rem; display: flex; gap: 0.7rem; flex-wrap: wrap; }
 
   .doc-body {
     display: grid;
