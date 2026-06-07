@@ -4,136 +4,133 @@ import Boundary from "../components/Boundary.astro";
 ---
 
 <Base>
-  <!-- Hero: calm, serious, hopeful. Mission in two sentences. -->
+  <!-- WHY: lead with the stakes. -->
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow rise rise-1">The Human-Core Initiative</p>
       <h1 class="hero-title rise rise-2">
-        Raising capable, whole humans, from the first months of life to the age
-        of AI.
+        Two forces are reshaping childhood at once, and most children are being
+        prepared for neither.
       </h1>
       <p class="hero-lede rise rise-3">
-        Human-Core is one free curriculum that gathers the methods the best
-        global evidence shows actually work. It begins in infancy with the
-        movement, language, and play that build the brain, teaches the
-        foundations of reading and mathematics with the methods the evidence
-        most strongly supports, adds the human skills school tends to skip, and
-        from about age ten teaches children to think with and master AI. The aim
-        is children who grow up able and whole, ready to thrive alongside AI
-        rather than be displaced by it.
+        Screens are displacing the things that build a mind: attention, sleep,
+        play, language, and real relationships. At the same time, AI now does the
+        thinking that school was built to teach, and offers an easy way to skip
+        the mental effort that grows a brain. Human-Core is one free, open
+        curriculum, from the first months of life, that protects what builds a
+        human and teaches children to master AI instead of being mastered by it.
       </p>
       <div class="hero-actions rise rise-4">
-        <a class="btn btn-primary" href="/resources">Explore the curriculum</a>
-        <a class="btn btn-ghost" href="/principles">Read the principles</a>
+        <a class="btn btn-primary" href="/curriculum">See the curriculum</a>
+        <a class="btn btn-ghost" href="/resources/screens-and-childhood">The problem with screens</a>
       </div>
     </div>
   </section>
 
-  <!-- The two-crisis problem, in brief. -->
-  <section class="wrap problem">
-    <p class="eyebrow">The problem, in brief</p>
-    <h2>Two crises, and they compound.</h2>
-    <div class="problem-grid">
-      <div class="problem-item">
+  <!-- WHY, concrete: the two forces. -->
+  <section class="wrap forces">
+    <p class="eyebrow">Why this exists</p>
+    <h2>The ground under childhood is moving.</h2>
+    <div class="forces-grid">
+      <article class="force">
         <p class="section-no">01</p>
-        <h3>Children are not learning the foundations</h3>
+        <h3>Screens displace what builds a mind</h3>
         <p>
-          The World Bank estimates that around seven in ten 10-year-olds in low-
-          and middle-income countries cannot read and understand a simple story,
-          a figure that rose from 57% to roughly 70% through the pandemic.
-          Wealthy systems are not exempt: foundational skills in reading and
-          mathematics are declining across many developed countries too. Too
-          often, teaching is unresponsive, and teachers are given almost no
-          usable feedback on their own practice.
+          A child's brain is built by movement, face-to-face language, play, and
+          sleep. A screen does not add to the day, it takes the place of those
+          things, and it is engineered to be hard to put down. The foundations
+          erode while no one decides that they should.
         </p>
-      </div>
-      <div class="problem-item">
+        <a class="text-link" href="/resources/screens-and-childhood">The problem with screens <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="force">
         <p class="section-no">02</p>
-        <h3>AI changes what learning is for, and how it is avoided</h3>
+        <h3>AI does the thinking that grows a brain</h3>
         <p>
-          AI now does most of what the old system trained children for, while
-          also giving them a frictionless way to avoid the thinking that builds
-          their minds. A system that was already failing to develop children is
-          now also obsolete in its aims and newly easy to cheat.
+          Learning is the residue of mental effort. For the first time a child
+          can get the answer, the essay, the solution, without ever doing the
+          thinking. Used as a substitute for thought, AI quietly weakens the very
+          mind it was meant to help.
         </p>
-      </div>
+        <a class="text-link" href="/resources/understanding-ai">Understanding AI <span aria-hidden="true">&rarr;</span></a>
+      </article>
     </div>
-    <p class="problem-close">
-      This initiative exists to act on both crises at once, in the open,
-      globally, rather than to complain about them.
+    <p class="forces-close">
+      Together, they put a generation at risk of being neither deeply developed
+      as humans nor ready for the world they will actually live in.
     </p>
   </section>
 
-  <!-- The boundary: the signature. -->
+  <!-- The belief / the turn. -->
+  <section class="wrap turn">
+    <h2>It does not have to be this way.</h2>
+    <p>
+      We know, from strong evidence, how humans actually develop and learn, and
+      how to point technology at empowerment rather than harm. None of this is
+      mysterious. What has been missing is a single, free, evidence-based
+      curriculum that puts it together and belongs to no company. That is what
+      this is, and the time to build it is now, while this generation is still
+      young.
+    </p>
+  </section>
+
+  <!-- HOW: the approach, principles with their reasons, stated once. -->
+  <section class="wrap how">
+    <p class="eyebrow">How we do it</p>
+    <h2>One curriculum, built on what works.</h2>
+    <ul class="how-list">
+      <li>
+        <strong>Protect the foundations first.</strong> Sleep, movement, play,
+        language, and a present adult are what build a mind, so they come before
+        any academics.
+      </li>
+      <li>
+        <strong>Knowledge before skill.</strong> You cannot think critically
+        about nothing, so we build a deep base of knowledge first, and judgment
+        grows out of it.
+      </li>
+      <li>
+        <strong>The child does the thinking.</strong> Learning is the residue of
+        effort, so anything that does the thinking for the child, a screen, an
+        adult, or an AI, is removed.
+      </li>
+      <li>
+        <strong>Mastery, not avoidance.</strong> Banning AI leaves children
+        unprepared, and surrender erodes them, so we teach them to use it, doubt
+        it, and stay in charge.
+      </li>
+      <li>
+        <strong>Free and open, owned by no company.</strong> So any parent,
+        teacher, or school on earth can pick it up and adapt it.
+      </li>
+    </ul>
+    <a class="text-link" href="/principles">The full principles, and the reason behind each one <span aria-hidden="true">&rarr;</span></a>
+  </section>
+
+  <!-- The boundary: the signature, stated once. -->
   <section class="wrap boundary-section">
     <Boundary />
   </section>
 
-  <!-- The three pillars, in one line each. -->
-  <section class="wrap pillars-teaser">
-    <p class="eyebrow">The three pillars</p>
-    <h2>One synthesis, three pieces.</h2>
-    <p class="pillars-intro">
-      The curriculum is the spine, from infancy onward. The teacher tool serves
-      the adults who deliver it. AI mastery is the capstone, built on top once a
-      child has the knowledge to judge a machine.
-    </p>
-    <ol class="pillar-list">
-      <li>
-        <span class="pillar-n">1</span>
-        <div>
-          <h3>An open, evidence-based pedagogy</h3>
-          <p>
-            A complete, age-banded curriculum and methods guide any teacher or
-            parent can adopt without permission or payment.
-          </p>
-        </div>
-      </li>
-      <li>
-        <span class="pillar-n">2</span>
-        <div>
-          <h3>AI that empowers teachers</h3>
-          <p>
-            A private, teacher-owned coach that listens to the teaching, not to
-            the children's feelings, and turns coaching from a luxury into
-            something every teacher can have.
-          </p>
-        </div>
-      </li>
-      <li>
-        <span class="pillar-n">3</span>
-        <div>
-          <h3>AI mastery for children</h3>
-          <p>
-            Teaching children to use AI as a thinking partner they control, to
-            audit it for error and bias, and to stay in charge of their own
-            minds.
-          </p>
-        </div>
-      </li>
-    </ol>
-    <a class="text-link" href="/pillars">Read each pillar in plain language <span aria-hidden="true">&rarr;</span></a>
-  </section>
-
-  <!-- Where to start -->
+  <!-- WHAT: the substance. -->
   <section class="wrap start">
     <p class="eyebrow">Where to start</p>
-    <h2>Find your entry point.</h2>
+    <h2>The substance, free and without a signup.</h2>
     <div class="start-grid">
       <a class="start-card" href="/resources/pillar-1-curriculum">
-        <span class="start-for">Parents of young children</span>
-        <span class="start-title">The early-years foundations</span>
-        <span class="start-body">Movement, language, play, and self-regulation, from the first months. Begin at Band A of the curriculum.</span>
+        <span class="start-for">The spine, birth to twelve</span>
+        <span class="start-title">The curriculum</span>
+        <span class="start-body">How children actually develop and learn, age by age: the body and language first, then knowledge, then judgment.</span>
       </a>
-      <a class="start-card" href="/resources/pillar-1-curriculum">
-        <span class="start-for">Primary teachers</span>
-        <span class="start-title">The building-years methods</span>
-        <span class="start-body">Explicit reading, concrete-to-pictorial-to-abstract mathematics, and teaching each child at their actual level.</span>
+      <a class="start-card" href="/resources/screens-and-childhood">
+        <span class="start-for">For parents and teachers</span>
+        <span class="start-title">The problem with screens</span>
+        <span class="start-body">What devices do to a developing child, what the evidence says and where it is contested, and a practical plan by age.</span>
       </a>
-      <a class="start-card" href="/resources/pillar-3-teacher-workbook">
-        <span class="start-for">Teachers of ages ten and up</span>
-        <span class="start-title">The AI-mastery capstone</span>
-        <span class="start-body">Eight ready-to-run sessions teaching children to use, question, and out-think AI. Runs even without AI in the room.</span>
+      <a class="start-card" href="/resources/understanding-ai">
+        <span class="start-for">For parents and teachers</span>
+        <span class="start-title">Understanding AI</span>
+        <span class="start-body">What AI is, the offloading danger, and why teaching mastery beats both banning it and surrendering to it.</span>
       </a>
     </div>
     <div class="start-actions">
@@ -145,78 +142,64 @@ import Boundary from "../components/Boundary.astro";
 
 <style>
   .hero {
-    padding-top: clamp(3.5rem, 8vw, 6.5rem);
-    padding-bottom: clamp(2.5rem, 5vw, 4rem);
+    padding-top: clamp(3.5rem, 8vw, 6rem);
+    padding-bottom: clamp(2rem, 4vw, 3rem);
   }
   .hero-title {
-    font-size: clamp(2.4rem, 6.2vw, 4.3rem);
-    max-width: 18ch;
+    font-size: clamp(2.2rem, 5.4vw, 3.9rem);
+    max-width: 20ch;
     margin: 1rem 0 0;
     font-variation-settings: "opsz" 144, "SOFT" 0;
   }
   .hero-lede {
-    font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
     line-height: 1.5;
     color: var(--color-ink-soft);
-    max-width: 40rem;
+    max-width: 44rem;
     margin-top: 1.5rem;
   }
   .hero-actions { display: flex; gap: 0.9rem; flex-wrap: wrap; margin-top: 2.2rem; }
 
   section { scroll-margin-top: 6rem; }
-  .problem { padding-top: 3.5rem; }
-  .problem > h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0.4rem 0 0; }
-  .problem-grid {
+
+  .forces { padding-top: 3.5rem; }
+  .forces > h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0.4rem 0 0; }
+  .forces-grid {
     display: grid;
     gap: 2.5rem;
     margin-top: 2.5rem;
     grid-template-columns: 1fr;
   }
-  @media (min-width: 760px) { .problem-grid { grid-template-columns: 1fr 1fr; gap: 3rem; } }
-  .problem-item h3 {
-    font-size: 1.35rem;
-    margin: 0.6rem 0 0.7rem;
-    max-width: 22ch;
-  }
-  .problem-item p { color: var(--color-ink-soft); margin: 0; }
-  .problem-close {
+  @media (min-width: 760px) { .forces-grid { grid-template-columns: 1fr 1fr; gap: 3rem; } }
+  .force h3 { font-size: 1.4rem; margin: 0.6rem 0 0.7rem; max-width: 22ch; }
+  .force p { color: var(--color-ink-soft); margin: 0 0 1rem; }
+  .forces-close {
     margin-top: 2.5rem;
     font-family: var(--font-display);
-    font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+    font-size: clamp(1.3rem, 2.6vw, 1.75rem);
     line-height: 1.4;
-    max-width: 36rem;
+    max-width: 38rem;
     color: var(--color-ink);
   }
+  .text-link { display: inline-block; font-weight: 600; text-decoration: none; }
+
+  .turn { margin-top: 4.5rem; max-width: 44rem; }
+  .turn h2 { font-size: clamp(1.8rem, 4.2vw, 2.7rem); margin: 0; }
+  .turn p { color: var(--color-ink-soft); margin-top: 1rem; font-size: 1.12rem; line-height: 1.6; }
+
+  .how { margin-top: 4.5rem; }
+  .how > h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0.4rem 0 0; }
+  .how-list { list-style: none; margin: 1.8rem 0 0; padding: 0; display: grid; gap: 0; max-width: 52rem; }
+  .how-list li {
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-line);
+    color: var(--color-ink-soft);
+  }
+  .how-list li:last-child { border-bottom: 1px solid var(--color-line); }
+  .how-list strong { color: var(--color-ink); font-weight: 600; }
+  .how .text-link { margin-top: 1.5rem; }
 
   .boundary-section { margin-top: 4.5rem; }
-
-  .pillars-teaser { margin-top: 4.5rem; }
-  .pillars-teaser > h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0.4rem 0 0; }
-  .pillars-intro { color: var(--color-ink-soft); max-width: 44rem; margin: 1rem 0 0; font-size: 1.08rem; }
-  .pillar-list { list-style: none; margin: 2rem 0 0; padding: 0; display: grid; gap: 0; }
-  .pillar-list li {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1.5rem;
-    padding: 1.6rem 0;
-    border-top: 1px solid var(--color-line);
-  }
-  .pillar-list li:last-child { border-bottom: 1px solid var(--color-line); }
-  .pillar-n {
-    font-family: var(--font-display);
-    font-size: 1.6rem;
-    color: var(--color-clay);
-    line-height: 1;
-    font-variation-settings: "opsz" 40;
-  }
-  .pillar-list h3 { font-size: 1.3rem; margin: 0 0 0.4rem; }
-  .pillar-list p { margin: 0; color: var(--color-ink-soft); max-width: 48rem; }
-  .text-link {
-    display: inline-block;
-    margin-top: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-  }
 
   .start { margin-top: 4.5rem; }
   .start > h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0.4rem 0 0; }
@@ -251,7 +234,7 @@ import Boundary from "../components/Boundary.astro";
     text-transform: uppercase;
     color: var(--color-clay);
   }
-  .start-title { font-family: var(--font-display); font-size: 1.25rem; color: var(--color-ink); line-height: 1.2; }
+  .start-title { font-family: var(--font-display); font-size: 1.3rem; color: var(--color-ink); line-height: 1.2; }
   .start-body { color: var(--color-ink-soft); font-size: 0.96rem; }
   .start-actions { display: flex; gap: 0.9rem; flex-wrap: wrap; margin-top: 2rem; }
 </style>

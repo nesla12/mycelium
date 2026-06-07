@@ -18,3 +18,5 @@ site/public/downloads/
 Thumbs.db
 .vscode/
 .idea/
+
+.vercel

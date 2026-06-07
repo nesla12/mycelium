@@ -2,7 +2,7 @@
 title: "The Human-Core AI Curriculum"
 subtitle: "A modular programme for schools, 6 to 24 hours, ages 10 to 14"
 slug: "school-implementation-guide"
-order: 6
+order: 7
 pillar: 3
 audience: "Teachers and school directors"
 summary: "The implementation layer. Sixteen modules and pre-built 6, 12, 18, and 24 hour pathways that slot Pillar 3 into informatics, science, mathematics, the humanities, or a standalone unit."

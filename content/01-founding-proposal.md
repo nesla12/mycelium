@@ -3,7 +3,7 @@ title: "Founding Proposal"
 subtitle: "An open-source framework for human development in the age of AI"
 version: "0.2"
 slug: "founding-proposal"
-order: 1
+order: 9
 audience: "Everyone"
 summary: "The mission, the two compounding crises, the constitutional principles, the boundary, and the three pillars."
 ---

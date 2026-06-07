@@ -14,6 +14,9 @@ export const defaultLang = "en";
 
 export const ui = {
   en: {
+    "nav.curriculum": "Curriculum",
+    "nav.screens": "Screens",
+    "nav.ai": "AI",
     "nav.principles": "Principles",
     "nav.pillars": "The Three Pillars",
     "nav.resources": "Resources",

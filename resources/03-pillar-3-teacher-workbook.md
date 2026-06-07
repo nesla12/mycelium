@@ -2,7 +2,7 @@
 title: "Pillar 3: AI Mastery for Children"
 subtitle: "The Complete Teacher Workbook, ages 10 to 12"
 slug: "pillar-3-teacher-workbook"
-order: 3
+order: 5
 pillar: 3
 audience: "Teachers"
 summary: "Pillar 3, the AI-mastery capstone. Eight ready-to-run sessions teaching children to use, question, and out-think AI, with printable handouts and assessment. Runs even without live AI access."

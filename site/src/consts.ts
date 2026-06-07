@@ -11,10 +11,17 @@ export const SITE = {
   url: "https://human-core-initiative.org",
 } as const;
 
+// Primary navigation leads with substance, not with abstract framing.
 export const NAV = [
-  { href: "/principles", key: "nav.principles" },
-  { href: "/pillars", key: "nav.pillars" },
+  { href: "/curriculum", key: "nav.curriculum" },
+  { href: "/resources/screens-and-childhood", key: "nav.screens" },
+  { href: "/resources/understanding-ai", key: "nav.ai" },
   { href: "/resources", key: "nav.resources" },
-  { href: "/contribute", key: "nav.contribute" },
   { href: "/about", key: "nav.about" },
+] as const;
+
+// Secondary links, surfaced in the footer rather than the primary nav.
+export const NAV_SECONDARY = [
+  { href: "/principles", key: "nav.principles" },
+  { href: "/contribute", key: "nav.contribute" },
 ] as const;

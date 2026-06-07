@@ -1,7 +1,6 @@
 ---
 import { getCollection, render } from "astro:content";
 import Base from "../../layouts/Base.astro";
-import Boundary from "../../components/Boundary.astro";
 import { useTranslations } from "../../i18n/ui";
 
 export async function getStaticPaths() {
@@ -62,7 +61,6 @@ const toc = headings.filter((h) => h.depth <= 2);
     </div>
 
     <footer class="doc-foot">
-      <Boundary compact />
       <div class="doc-foot-actions">
         <a class="btn btn-ghost" href="/resources">{t("common.backToResources")}</a>
         <a class="btn btn-primary" href={downloadHref} download>{t("common.download")}</a>

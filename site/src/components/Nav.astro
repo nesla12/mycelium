@@ -3,9 +3,16 @@ import { NAV, SITE } from "../consts";
 import { useTranslations } from "../i18n/ui";
 
 const t = useTranslations("en");
-const path = Astro.url.pathname;
-const isActive = (href: string) =>
-  href === "/" ? path === "/" : path.startsWith(href);
+// Normalize the path (drop trailing slash) and pick the single most specific
+// matching nav item, so a deep link like /resources/understanding-ai lights up
+// "AI" and not also "Resources".
+const path = (Astro.url.pathname.replace(/\/$/, "") || "/");
+const matches = NAV.filter((i) =>
+  i.href === "/" ? path === "/" : path === i.href || path.startsWith(i.href + "/"),
+);
+const activeHref = matches.length
+  ? matches.reduce((a, b) => (b.href.length > a.href.length ? b : a)).href
+  : null;
 ---
 
 <header class="site-header">
@@ -40,8 +47,8 @@ const isActive = (href: string) =>
             <li>
               <a
                 href={item.href}
-                class:list={["nav-link", { active: isActive(item.href) }]}
-                aria-current={isActive(item.href) ? "page" : undefined}
+                class:list={["nav-link", { active: item.href === activeHref }]}
+                aria-current={item.href === activeHref ? "page" : undefined}
               >
                 {t(item.key)}
               </a>

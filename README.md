@@ -1,8 +1,8 @@
 # The Human-Core Initiative
 
-**One free, evidence-based curriculum for raising a capable, whole human, from the first months of life to the age of AI.**
+**Two forces are reshaping childhood at once, and most children are being prepared for neither.** Screens are displacing the things that build a mind, attention, sleep, play, language, and real relationships. At the same time, AI now does the thinking that school was built to teach, and offers an easy way to skip the mental effort that grows a brain.
 
-Human-Core gathers the methods the best global evidence shows actually work. It begins in infancy with the movement, language, and play that build the brain, teaches the foundations of reading and mathematics with the methods the evidence most strongly supports, adds the human skills school tends to skip, and from about age ten teaches children to think with and master AI. The aim is children who grow up able and whole, ready to thrive alongside AI rather than be displaced by it. Everything is free, forkable, and translatable, owned by no company.
+Human-Core is one free, open, evidence-based curriculum, from the first months of life, that protects what builds a human and teaches children to master AI instead of being mastered by it. It gathers the methods the best global evidence shows actually work: the movement, language, and play that build the early brain, the foundations of reading and mathematics, the human skills school tends to skip, and, from about age ten, learning to think with and master AI. The aim is children who grow up able and whole, ready to thrive alongside AI rather than be displaced by it. Everything is free, forkable, and translatable, owned by no company.
 
 This is early work: a founding proposal and a growing set of pilotable materials, not a finished system and not a guarantee. We would rather say that plainly than oversell it.
 
@@ -56,7 +56,9 @@ All resources are free, with no signup and no email gate. Read them on the site 
 
 | Document | For | What it is |
 |----------|-----|-----------|
-| **[MYCELIUM Learning Framework](content/02-pillar-1-curriculum.md)** | Teachers and parents | Pillar 1, the spine. The evidence-based curriculum and methods from birth to twelve. **Start here.** |
+| **[MYCELIUM Learning Framework](content/02-pillar-1-curriculum.md)** | Teachers and parents | Pillar 1, the spine. The evidence-based curriculum from birth to twelve, body and language first, then knowledge, then judgment. **Start here.** |
+| [The Problem With Screens](content/07-screens-and-childhood.md) | Parents and teachers | What devices do to a developing child, the displacement problem, the evidence and where it is contested, and a practical plan by age. |
+| [Understanding AI](content/08-understanding-ai.md) | Parents and teachers | What AI is, the cognitive offloading danger, and why teaching mastery beats both banning it and surrendering to it. |
 | [Pillar 3 Teacher Workbook](content/03-pillar-3-teacher-workbook.md) | Teachers | The AI-mastery capstone, ages 10 to 12. Eight ready-to-run sessions teaching children to use, question, and out-think AI. Runs even without AI in the room, and the most ready-to-run module. |
 | [Pillar 3, Part II: The Frontier](content/04-pillar-3-part-ii-frontier.md) | Teachers | The advanced track, ages 12 to 14: reasoning models, compute and power, authorship, research, and the skills school forgot. |
 | [The Facilitator's Guide](content/05-facilitators-guide.md) | Teachers | How to run hard debates with children as a community of inquiry, without it becoming chaos or your opinion. |

@@ -2,7 +2,7 @@
 title: "The Facilitator's Guide"
 subtitle: "How to run hard debates with children without it becoming chaos, or your opinion"
 slug: "facilitators-guide"
-order: 5
+order: 8
 pillar: 3
 audience: "Teachers"
 summary: "Companion to Pillar 3, Part II. The stance, the moves, the session formats, and the troubleshooting for running a community of inquiry well."

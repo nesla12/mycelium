@@ -1,5 +1,5 @@
 ---
-import { NAV, SITE } from "../consts";
+import { NAV, NAV_SECONDARY, SITE } from "../consts";
 import { useTranslations } from "../i18n/ui";
 
 const t = useTranslations("en");
@@ -15,6 +15,7 @@ const year = 2026;
 
     <nav aria-label="Footer" class="footer-nav">
       {NAV.map((item) => <a href={item.href}>{t(item.key)}</a>)}
+      {NAV_SECONDARY.map((item) => <a href={item.href}>{t(item.key)}</a>)}
     </nav>
 
     <div class="footer-meta">

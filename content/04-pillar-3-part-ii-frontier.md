@@ -2,7 +2,7 @@
 title: "Pillar 3, Part II: The Frontier"
 subtitle: "Advanced AI Mastery, Reasoning, and the Skills School Forgot, ages 12 to 14"
 slug: "pillar-3-part-ii-frontier"
-order: 4
+order: 6
 pillar: 3
 audience: "Teachers"
 summary: "The advanced track. Eight units on reasoning models, compute and power, authorship, modern research, cognitive self-control, collaboration, the skills school forgot, and betting on an uncertain future."
