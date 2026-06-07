@@ -39,7 +39,7 @@ The research here is active and not all settled, so we separate what is well est
 
 **Genuinely debated:**
 
-- **Smartphones, social media, and adolescent distress.** Across many countries the reorganization of adolescence around smartphones and social media coincided with rising anxiety and depression, especially among girls. Whether this is a direct cause, and how large the effect is, is actively argued among researchers. We take the concern seriously and we do not overstate the certainty. The practical advice below holds up whether the effect is large or modest, because it is built on the well-supported findings above, not on the contested one.
+- **Smartphones, social media, and adolescent distress.** In *The Anxious Generation* (2024), the psychologist Jonathan Haidt argues that a "great rewiring of childhood" between roughly 2010 and 2015, as a play-based childhood gave way to a phone-based one, is a major cause of a sharp rise in adolescent anxiety and depression, especially among girls. Other respected researchers, including Candice Odgers and Amy Orben, argue that the evidence shows correlation more than proven causation, and that the real effect is smaller and more mixed. We take the concern seriously without overstating the certainty. The practical advice below holds either way, because it rests on the well-supported findings above, not on this contested one.
 
 We will update this document as the evidence develops, and we welcome correction.
 
@@ -61,7 +61,7 @@ The rule under all of this: **the device serves the child's development, or it i
 
 **About six to ten. Deliberate and supervised. Tool, not toy.** A well-designed learning tool that gives fast feedback can genuinely help, under one unbreakable rule: the child attempts the thinking first, and the tool checks or hints, but never hands over the answer before the child has tried. Keep the device out of the bedroom. Protect sleep and play. Begin the conversation about what these systems are, including that they are designed to keep you watching.
 
-**About ten and up. Delay, add friction, and teach mastery.** Delay a personal smartphone and especially social media as long as is realistic; this is one of the highest-leverage choices a family makes, and it is far easier in a group of families who agree to wait together. When a phone does arrive, default to friction: no notifications, no social media at first, grayscale, and never in the bedroom or at the table. And from here on, teach mastery rather than abstinence, because these young people are about to live inside these tools for the rest of their lives.
+**About ten and up. Delay, add friction, and teach mastery.** Delay a personal smartphone and especially social media as long as is realistic; this is one of the highest-leverage choices a family makes, and it is far easier in a group of families who agree to wait together. Haidt's four proposed norms, now being adopted by schools and parent groups, are a useful anchor: no smartphone before high school, no social media before sixteen, phone-free schools, and far more unsupervised play and real-world independence. When a phone does arrive, default to friction: no notifications, no social media at first, grayscale, and never in the bedroom or at the table. And from here on, teach mastery rather than abstinence, because these young people are about to live inside these tools for the rest of their lives.
 
 ---
 
@@ -75,11 +75,11 @@ That is where this connects to the rest of the framework. Protecting the foundat
 
 ## Sources and grounding
 
-This document synthesises well-established findings on child development, sleep, attention, and the displacement of developmental inputs by screen media, alongside the active and unsettled debate on social media and adolescent mental health. Consistent with our evidence standard, the references below are a starting point to be verified and extended, and we name openly where the science is contested.
+This document synthesises well-established findings on child development, sleep, attention, and the displacement of developmental inputs by screen media, alongside the active and unsettled debate on social media and adolescent mental health, with the key sources checked against their originals. We name openly where the science is contested.
 
 - Work on the displacement of developmental activities by screen media, and on very young children learning from people rather than screens (the "video deficit").
 - Research on screens, evening light, and the bedroom environment degrading children's sleep.
 - Work on persuasive design and variable-reward mechanics, and on the developing brain's limited capacity to self-regulate against them.
 - Research on caregiver device use interrupting responsive interaction (technoference) and its links to children's language and behaviour.
-- Haidt (2024), *The Anxious Generation*, and Twenge's work on the phone-based childhood, presenting the case that smartphones and social media reshaped adolescence, together with the scholarly debate and critiques (for example Odgers and Orben) on how strong the causal evidence is.
-- Pediatric and public-health guidance on age-appropriate media use.
+- Haidt (2024), *The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness*, and Twenge's work on the phone-based childhood, presenting the case that smartphones and social media reshaped adolescence; together with the scholarly critiques (for example Candice Odgers in *Nature*, and Amy Orben) arguing the causal evidence is weaker and more mixed.
+- Pediatric and public-health guidance on age-appropriate media use (for example the American Academy of Pediatrics).

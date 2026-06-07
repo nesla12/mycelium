@@ -44,6 +44,10 @@ const toc = headings.filter((h) => h.depth <= 2);
     </header>
 
     <div class="doc-body">
+      <div class="prose doc-prose">
+        <Content />
+      </div>
+
       <aside class="doc-toc" aria-label={t("common.onThisPage")}>
         <div class="toc-sticky">
           <p class="eyebrow">{t("common.onThisPage")}</p>
@@ -54,10 +58,6 @@ const toc = headings.filter((h) => h.depth <= 2);
           </ul>
         </div>
       </aside>
-
-      <div class="prose doc-prose">
-        <Content />
-      </div>
     </div>
 
     <footer class="doc-foot">
@@ -106,10 +106,13 @@ const toc = headings.filter((h) => h.depth <= 2);
     gap: 2.5rem;
     align-items: start;
   }
+  /* Prose reads in a comfortable measure; the table of contents sits to its
+     right on wide screens and is hidden on small ones. */
+  .doc-prose { max-width: 44rem; }
+  .doc-toc { display: none; }
   @media (min-width: 1024px) {
-    .doc-body { grid-template-columns: 15rem minmax(0, 1fr); gap: 3.5rem; }
-    .doc-toc { order: 2; }
-    .doc-prose { order: 1; }
+    .doc-body { grid-template-columns: minmax(0, 1fr) 15rem; gap: 3rem; }
+    .doc-toc { display: block; }
   }
   .toc-sticky { position: sticky; top: 5.5rem; }
   .doc-toc ul { list-style: none; margin: 0.7rem 0 0; padding: 0; display: grid; gap: 0.45rem; }

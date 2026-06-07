@@ -36,6 +36,8 @@ For the first time, a child can obtain the answer, the essay, the solved problem
 
 This is the core danger, and it has a name: **cognitive offloading**. The evidence points one way. Using AI as a substitute for your own thinking measurably weakens that thinking over time. Using it to push your thinking further can strengthen it. The mind is like a muscle the machine can either replace or train, depending entirely on how it is used. The trap is that offloading feels great in the moment and charges you the cost later, quietly, where you cannot see it.
 
+A 2025 MIT Media Lab study put this on a brain scan. People wrote essays either with an AI assistant, with a search engine, or with only their own minds, while their brain activity was recorded. The AI group showed the weakest brain connectivity and engagement, produced the most uniform and similar essays, and, strikingly, many could not quote or recall what they had just submitted moments earlier. The researchers named what builds up "cognitive debt" (Kosmyna et al., 2025). It is a single early study, but it makes the mechanism vivid: outsource the thinking, and the thinking simply does not happen.
+
 So the governing test, which never changes: **if the AI increases how much the child thinks, it is a tutor. If it replaces the child's thinking, it is a crutch that quietly weakens them.**
 
 ---
@@ -84,10 +86,10 @@ This document is the why. The how is written out, free, and ready to run:
 
 ## Sources and grounding
 
-This document synthesises the current picture of capable AI and the evidence on how its use affects learning. Consistent with our evidence standard, the references below are a starting point to be verified and extended.
+This document synthesises the current picture of capable AI and the evidence on how its use affects learning, with the key sources checked against their originals.
 
 - The cognitive-science principle that learning is the residue of the learner's own thinking, and that knowledge precedes the ability to evaluate critically.
-- Kosmyna et al. (2025) and related work on cognitive offloading and the harms of over-reliance on AI.
+- Kosmyna et al. (2025), *Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task* (MIT Media Lab), a small brain-activity study on the cost of offloading writing to an LLM. Early evidence, but pointed.
 - Kestin et al. (2025) and the LearnLM schools trial (2025) on well-designed AI tutoring that supports rather than replaces thinking.
 - The state of capable AI in this period: reasoning models with extended chains of thought; systems that exceed human experts on some benchmarks while still failing a meaningful share of real tasks; and the persistence of hallucination and bias as consequences of how the systems work.
 - The UNESCO AI Competency Framework for Students (2024), to which the Pillar 3 teaching is aligned.

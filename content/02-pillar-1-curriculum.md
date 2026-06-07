@@ -54,7 +54,7 @@ These are the highest-leverage moves in all of education. They cost nothing and 
 
 **Build knowledge richly and in sequence.** Teach a coherent, connected body of knowledge, because new learning sticks to what is already known. The more a child knows, the faster they learn the next thing. Breadth of vocabulary and background knowledge is the engine of reading comprehension: a child understands a text about a subject they already know far better than a stronger reader who lacks that knowledge.
 
-**Make them recall, do not just review.** Retrieving an answer from memory strengthens learning far more than rereading or being shown it again. Use low-stakes recall constantly: quick questions, "tell me what you remember," flashcards, a problem with the book closed. This is the single most underused powerful technique in classrooms and homes.
+**Make them recall, do not just review.** Retrieving an answer from memory strengthens learning far more than rereading or being shown it again. In a large review of how students actually study, practice testing and distributed (spaced) practice were the two techniques that worked best across subjects and ages, while rereading and highlighting, the most common habits, were near useless (Dunlosky et al., 2013). Use low-stakes recall constantly: quick questions, "tell me what you remember," flashcards, a problem with the book closed. This is the single most underused powerful technique in classrooms and homes.
 - Teacher: open every lesson with a few questions on prior material.
 - Parent: at dinner, ask the child to teach you one thing they learned today.
 
@@ -79,13 +79,15 @@ Movement is not a break from learning at this age. It is learning. Physical acti
 Build it roughly in this order, with lots of overlap:
 
 - **Big movements and balance first.** Crawling, climbing, balancing, running, jumping, rolling, hanging, carrying. Let the child move, fall safely, and try again. Time on the floor and outdoors beats time in a seat or a device.
-- **Fundamental movement skills.** The building blocks that everything athletic and practical later rests on: balance and stability, locomotion (running, jumping, hopping, skipping), and object control (throwing, catching, kicking, rolling a ball). Teach and practise these directly through games.
+- **Fundamental movement skills.** The building blocks that everything athletic and practical later rests on, grouped in three families: balance and stability, locomotion (running, jumping, hopping, skipping), and object control (throwing, catching, kicking, rolling a ball). These do not appear on their own; they have to be taught and practised directly. Reviews of young children find that programs which target these skills explicitly, rather than just free play, are the most effective at building them, and that motor-skill work is linked to gains in the same executive functions that underpin later learning.
 - **Coordination and rhythm.** Games and traditions that build coordination, balance, rhythm, and crossing the midline of the body: clapping and rhythm games, hopping patterns, balancing along a line, catching and throwing, simple dance and movement to a beat. Many physical-play traditions around the world are built for exactly this, and they double as practice in turn-taking and rules.
 - **Fine motor, as it becomes possible.** Crayons, scissors, threading beads, tearing and folding paper, building, doing up buttons. These prepare the hand for writing and, with it, free the mind to compose later.
 
 ### Language, constantly and richly
 
-The volume and quality of language a child hears predicts later reading and thinking. What matters most is not a recording or a screen but real back-and-forth: the conversational turns between an adult and a child, where each responds to the other. Narrate the day, name things, ask real questions, and listen to the answers. Read aloud daily, the same favourites on repeat, pointing at the words.
+The specific, evidence-based move is to get the child talking back, not to talk at them. A 2018 MIT and Harvard study found that the number of back-and-forth conversational turns, far more than the sheer number of words a child hears, predicted their language skills and was linked to greater activity in Broca's area, the brain's language-production region (Romeo et al., 2018). The old advice to flood a child with words misses the point: it is the turn-taking, the engagement, that builds the brain.
+
+So narrate the day, name things, ask real questions, and wait for the answer, then respond to it. Read aloud daily, the same favourites on repeat, pointing at the words, and stop to talk about them.
 
 Then, playfully, build the bridge to reading: play with the sounds inside words. Rhyming, clapping the syllables in a name, "what sound does cat start with?" This phonemic awareness is what makes learning to read possible later.
 
@@ -95,7 +97,9 @@ Set up play with a goal the adult holds lightly while the child explores inside 
 
 ### Self-regulation is the real curriculum
 
-The ability to wait, focus, switch tasks, and manage frustration predicts later success more than early academics do. It can be deliberately built: games with rules that demand you stop and think before acting, turn-taking, pretend play with assigned roles, and calm adult co-regulation when emotions run high. A child who can hold a goal in mind and resist the first impulse is a child who can later learn anything.
+The ability to wait, focus, switch tasks, and manage frustration, together called the executive functions, predicts later success at least as well as early academics do, and it can be deliberately trained. A landmark review in *Science* found that a wide range of activities improve young children's executive functions, from certain games to physical activity and structured pretend play (Diamond and Lee, 2011). The most studied early-years program, Tools of the Mind, builds self-regulation straight into the school day, for example by having children make a plan for their play and then hold themselves to it.
+
+In practice: games with rules that force you to stop and think before acting, turn-taking, pretend play with assigned roles and a plan, and calm adult co-regulation when emotions run high. A child who can hold a goal in mind and resist the first impulse is a child who can later learn anything.
 
 ### Early number, playfully
 
@@ -113,19 +117,20 @@ This is the explicit-instruction era. The child is acquiring the foundational sk
 
 ### Reading: decode explicitly, then comprehend through knowledge
 
-Reading is two things multiplied together: the ability to decode words, and the language and knowledge to understand them. Both must be built, and they are built differently.
+Reading is two things multiplied together. This is the Simple View of Reading (Gough and Tunmer, 1986): reading comprehension is decoding multiplied by language comprehension, and if either one is near zero, reading fails. Both must be built, and they are built differently.
 
-- **Decoding.** Teach the letter-sound relationships systematically and directly, in a planned sequence, until decoding is fluent and automatic. Do not rely on guessing from pictures or context. Systematic phonics is one of the most settled findings in education.
+- **Decoding.** Teach the letter-sound relationships systematically and directly, in a planned sequence, until decoding is fluent and automatic. Do not rely on guessing from pictures or context. After decades of dispute, the science has largely settled this: systematic phonics is the natural consequence of how alphabetic writing represents speech, and it reliably improves early reading, especially for the children who would otherwise struggle (Castles, Rastle and Nation, 2018). Phonemic awareness, built playfully in the early years, is the precursor that makes phonics click.
 - **Comprehension.** Once decoding is solid, understanding is driven by vocabulary and background knowledge. So read widely across science, history, geography, and stories, deliberately building the knowledge that lets a child understand what they decode. Comprehension is not a free-floating skill to be drilled; it grows out of knowing things.
 
 ### Mathematics: concrete, then pictorial, then abstract
 
-Introduce every new idea first with physical objects the child can move, then with drawings and diagrams, then with the abstract symbols. This concrete-pictorial-abstract sequence is the backbone of the mathematics teaching used in the highest-performing systems, and it rests on a long-established insight about how understanding is built from action, to image, to symbol.
+Introduce every new idea first with physical objects the child can move, then with drawings and diagrams, then with the abstract symbols. This concrete-pictorial-abstract sequence, rooted in Bruner's account of how understanding is built from action to image to symbol, is the backbone of Singapore's mastery mathematics, among the highest-performing approaches in the world. When it has been evaluated rigorously in Western classrooms the effects have been positive but usually modest, which is the honest picture: a strong approach, not a miracle.
 
-- Build a strong sense of number and place value before procedures.
+- Build a strong sense of number and place value before any procedures.
+- Use the bar model: draw the quantities in a word problem as bars, so the child can see the relationships before calculating.
 - Drill the number facts (number bonds, times tables) to automaticity, so working memory is free for reasoning.
 - Teach for mastery: do not advance until the current step is secure, then apply it to real problems.
-- Space and interleave practice rather than teaching a topic once and leaving it.
+- Space practice across weeks, and interleave problem types rather than doing many of one kind in a block. Mixing types is harder in the moment and builds far stronger problem-solving, because the child has to work out which method a problem needs, not just how to run it (Rohrer and colleagues).
 
 ### Science: teach the concept, confront the misconception
 
@@ -217,7 +222,7 @@ This is a methods and curriculum guide, not a school in a box and not a guarante
 
 ## Sources this guide draws on
 
-This curriculum synthesises well-established findings from the science of learning and child development. It is a first consolidation, and consistent with our evidence standard the citations are to be independently verified and extended.
+This curriculum synthesises well-established findings from the science of learning and child development, and the references below were checked against their original sources. Where effects are modest or genuinely contested, we say so rather than overstating them, and we welcome correction from a research partner.
 
 **Instruction and the science of learning**
 - Kirschner, Sweller and Clark (2006) on the failure of minimally guided instruction for novices, and cognitive load theory.
@@ -232,7 +237,8 @@ This curriculum synthesises well-established findings from the science of learni
 
 **Mathematics**
 - Bruner on the enactive, iconic, and symbolic stages of representation, the basis of the concrete-pictorial-abstract sequence used in Singapore-style mastery mathematics.
-- Rohrer and colleagues on interleaving practice in mathematics.
+- Education Endowment Foundation evaluations of mastery mathematics (Mathematics Mastery), reporting small but positive effects, noted honestly as modest.
+- Rohrer and colleagues (for example Rohrer and Hartwig) on spaced and interleaved mathematics practice.
 
 **Early childhood, movement, and self-regulation**
 - Skene et al. (2022), systematic review and meta-analysis on guided play in early childhood.
